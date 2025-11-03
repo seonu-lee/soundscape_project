@@ -1,0 +1,89 @@
+location,decibel,goal,playlist,mood,bpm,energy,vocal,genre
+cafe,60,focus,Deep Work Lo-Fi,calm,82,0.47,instrumental,lofi
+cafe,64,focus,Lo-Fi Beats,calm,80,0.45,instrumental,lofi
+cafe,74,focus,Minimal Tech Focus,neutral,90,0.55,instrumental,minimal_techno
+cafe,60,relax,Cafe Ambient,chill,66,0.36,instrumental,ambient
+cafe,61,relax,Ambient Journey,chill,65,0.35,instrumental,ambient
+cafe,74,relax,Smooth Bossa Break,chill,92,0.5,with_vocal,bossa_nova
+cafe,77,meditate,Deep Meditative Drones,serene,60,0.25,instrumental,drone
+cafe,78,sleep,Sleep Tones,soothing,55,0.2,instrumental,sleep
+cafe,76,active,Electronic Focus Boost,upbeat,115,0.7,with_vocal,electronic
+cafe,62,reading,Piano Calm,soft,60,0.3,instrumental,piano
+cafe,40,neutral,Neutral Soundscape,neutral,62,0.33,instrumental,ambient
+cafe,65,neutral,Neutral Soundscape,neutral,62,0.33,instrumental,ambient
+cafe,85,neutral,Ambient Essentials,neutral,60,0.32,instrumental,ambient
+library,30,focus,Soft Jazz Study,calm,74,0.4,instrumental,jazz
+library,32,focus,Soft Jazz Study,calm,76,0.4,instrumental,jazz
+library,36,focus,Lo-Fi Beats,calm,80,0.45,instrumental,lofi
+library,45,focus,Classical Focus,calm,72,0.38,instrumental,classical
+library,43,relax,Ambient Journey,chill,65,0.35,instrumental,ambient
+library,48,meditate,Deep Meditative Drones,serene,60,0.25,instrumental,drone
+library,38,sleep,Sleep Tones,soothing,55,0.2,instrumental,sleep
+library,45,sleep,Sleep Tones,soothing,55,0.2,instrumental,sleep
+library,35,active,Electronic Focus Boost,upbeat,110,0.65,with_vocal,electronic
+library,44,active,Electronic Focus Boost,upbeat,110,0.65,with_vocal,electronic
+library,32,reading,Gentle Piano Reading,soft,58,0.3,instrumental,piano
+library,35,reading,Piano Calm,soft,60,0.3,instrumental,piano
+library,38,reading,Piano Calm,soft,60,0.3,instrumental,piano
+library,45,reading,Acoustic Study,soft,62,0.34,with_vocal,acoustic
+library,40,neutral,Neutral Soundscape,neutral,62,0.33,instrumental,ambient
+library,65,neutral,Neutral Soundscape,neutral,62,0.33,instrumental,ambient
+library,85,neutral,Neutral Soundscape,neutral,62,0.33,instrumental,ambient
+subway,76,focus,Lo-Fi Beats,calm,85,0.5,instrumental,lofi
+subway,76,relax,Ambient Journey,chill,70,0.4,instrumental,ambient
+subway,81,meditate,Ambient Essentials,noise-masking,55,0.3,instrumental,brown_noise
+subway,81,meditate,Brown Noise Mask,noise-masking,55,0.3,instrumental,brown_noise
+subway,90,meditate,Ambient Essentials,noise-masking,55,0.3,instrumental,brown_noise
+subway,90,meditate,Airplane Cabin,noise-masking,55,0.32,instrumental,pink_noise
+subway,75,sleep,Sleep Tones,soothing,55,0.2,instrumental,sleep
+subway,77,sleep,Sleep Tones,soothing,55,0.2,instrumental,sleep
+subway,78,active,Electronic Focus Boost,upbeat,115,0.7,with_vocal,electronic
+subway,83,active,Electronic Focus Boost,upbeat,115,0.7,with_vocal,electronic
+subway,95,active,Electronic Focus Boost,energetic,120,0.8,with_vocal,electronic
+subway,74,reading,Ambient Essentials,soft,65,0.35,instrumental,lofi
+subway,40,neutral,Neutral Soundscape,neutral,62,0.33,instrumental,ambient
+subway,65,neutral,Neutral Soundscape,neutral,62,0.33,instrumental,ambient
+subway,85,neutral,Ambient Essentials,neutral,60,0.32,instrumental,ambient
+office,54,focus,Lo-Fi Beats,calm,80,0.45,instrumental,lofi
+office,63,focus,Lo-Fi Beats,calm,80,0.45,instrumental,lofi
+office,58,relax,Ambient Journey,chill,65,0.35,instrumental,ambient
+office,61,relax,Ambient Journey,chill,65,0.35,instrumental,ambient
+office,62,meditate,Deep Meditative Drones,serene,60,0.25,instrumental,drone
+office,55,sleep,Sleep Tones,soothing,55,0.2,instrumental,sleep
+office,50,active,Electronic Focus Boost,upbeat,110,0.65,with_vocal,electronic
+office,50,active,Flowstate EDM,upbeat,112,0.68,with_vocal,electronic
+office,55,active,Electronic Focus Boost,upbeat,115,0.7,with_vocal,electronic
+office,63,active,Productive Pop,energetic,118,0.75,with_vocal,pop
+office,63,reading,Piano Calm,soft,60,0.3,instrumental,piano
+office,64,reading,Piano Calm,soft,60,0.3,instrumental,piano
+office,40,neutral,Neutral Soundscape,neutral,62,0.33,instrumental,ambient
+office,65,neutral,Neutral Soundscape,neutral,62,0.33,instrumental,ambient
+office,85,neutral,Neutral Soundscape,neutral,62,0.33,instrumental,ambient
+outdoor,64,focus,Lo-Fi Beats,calm,80,0.45,instrumental,lofi
+outdoor,73,focus,Lo-Fi Beats,calm,85,0.5,instrumental,lofi
+outdoor,52,relax,Ambient Journey,chill,65,0.35,instrumental,ambient
+outdoor,58,relax,Nature Calm,calm,60,0.3,instrumental,nature
+outdoor,72,relax,Acoustic Chill,chill,72,0.42,with_vocal,acoustic
+outdoor,95,relax,Brown Noise Mask,noise-masking,55,0.35,instrumental,brown_noise
+outdoor,63,meditate,Deep Meditative Drones,serene,60,0.25,instrumental,drone
+outdoor,60,sleep,Sleep Tones,soothing,55,0.2,instrumental,sleep
+outdoor,65,active,Electronic Focus Boost,upbeat,115,0.7,with_vocal,electronic
+outdoor,80,reading,Ambient Essentials,soft,65,0.35,instrumental,lofi
+outdoor,40,neutral,Neutral Soundscape,neutral,62,0.33,instrumental,ambient
+outdoor,65,neutral,Neutral Soundscape,neutral,62,0.33,instrumental,ambient
+outdoor,85,neutral,Neutral Soundscape,neutral,62,0.33,instrumental,ambient
+home,55,focus,Lo-Fi Beats,calm,80,0.45,instrumental,lofi
+home,62,focus,Lo-Fi Beats,calm,80,0.45,instrumental,lofi
+home,48,relax,Ambient Journey,chill,65,0.35,instrumental,ambient
+home,64,relax,Ambient Journey,chill,65,0.35,instrumental,ambient
+home,49,meditate,Deep Meditative Drones,serene,60,0.25,instrumental,drone
+home,30,sleep,Rain On Window,soothing,55,0.2,instrumental,rain
+home,42,sleep,White Noise Night,soothing,55,0.2,instrumental,white_noise
+home,56,sleep,Sleep Tones,soothing,55,0.2,instrumental,sleep
+home,56,sleep,Rain On Window,soothing,55,0.22,instrumental,rain
+home,63,sleep,Sleep Tones,soothing,55,0.2,instrumental,sleep
+home,64,active,Electronic Focus Boost,upbeat,115,0.7,with_vocal,electronic
+home,46,reading,Piano Calm,soft,60,0.3,instrumental,piano
+home,40,neutral,Neutral Soundscape,neutral,62,0.33,instrumental,ambient
+home,65,neutral,Ambient Essentials,neutral,60,0.32,instrumental,ambient
+home,85,neutral,Neutral Soundscape,neutral,62,0.33,instrumental,ambient
