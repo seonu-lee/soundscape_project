@@ -4,7 +4,7 @@ import pandas as pd
 from urllib.parse import quote
 
 DEFAULT_IN = "rule_mapping_v1.csv"
-DEFAULT_OUT = "rule_mapping_v2.csv"
+DEFAULT_OUT = "rule_mapping_search_v2.csv"
 
 def _is_nan(x):
     try:
