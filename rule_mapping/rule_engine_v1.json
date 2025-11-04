@@ -1,0 +1,3668 @@
+{
+  "library": {
+    "active": {
+      "0-35": {
+        "bpm": [
+          105,
+          115
+        ],
+        "energy": [
+          0.6,
+          0.75
+        ],
+        "mood": "calm",
+        "genre": [
+          "pop",
+          "edm"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Calm Pop Active"
+      },
+      "36-50": {
+        "bpm": [
+          108,
+          118
+        ],
+        "energy": [
+          0.63,
+          0.78
+        ],
+        "mood": "calm",
+        "genre": [
+          "pop",
+          "edm"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Calm Pop Active"
+      },
+      "51-65": {
+        "bpm": [
+          110,
+          120
+        ],
+        "energy": [
+          0.65,
+          0.8
+        ],
+        "mood": "calm",
+        "genre": [
+          "pop",
+          "edm"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Calm Pop Active"
+      },
+      "66-80": {
+        "bpm": [
+          120,
+          130
+        ],
+        "energy": [
+          0.75,
+          0.9
+        ],
+        "mood": "calm",
+        "genre": [
+          "pop",
+          "edm"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Calm Pop Active"
+      },
+      "81-100": {
+        "bpm": [
+          105,
+          115
+        ],
+        "energy": [
+          0.6,
+          0.75
+        ],
+        "mood": "calm",
+        "genre": [
+          "pop",
+          "edm"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Calm Pop Active"
+      }
+    },
+    "focus": {
+      "0-35": {
+        "bpm": [
+          70,
+          85
+        ],
+        "energy": [
+          0.35,
+          0.5
+        ],
+        "mood": "calm",
+        "genre": [
+          "lo-fi",
+          "instrumental hiphop"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Calm Lo-Fi Focus"
+      },
+      "36-50": {
+        "bpm": [
+          73,
+          88
+        ],
+        "energy": [
+          0.38,
+          0.53
+        ],
+        "mood": "calm",
+        "genre": [
+          "lo-fi",
+          "instrumental hiphop"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Calm Lo-Fi Focus"
+      },
+      "51-65": {
+        "bpm": [
+          75,
+          90
+        ],
+        "energy": [
+          0.4,
+          0.55
+        ],
+        "mood": "calm",
+        "genre": [
+          "lo-fi",
+          "instrumental hiphop"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Calm Lo-Fi Focus"
+      },
+      "66-80": {
+        "bpm": [
+          85,
+          100
+        ],
+        "energy": [
+          0.5,
+          0.65
+        ],
+        "mood": "calm",
+        "genre": [
+          "lo-fi",
+          "instrumental hiphop"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Calm Lo-Fi Focus"
+      },
+      "81-100": {
+        "bpm": [
+          70,
+          85
+        ],
+        "energy": [
+          0.35,
+          0.5
+        ],
+        "mood": "calm",
+        "genre": [
+          "lo-fi",
+          "instrumental hiphop"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Calm Lo-Fi Focus"
+      }
+    },
+    "relax": {
+      "0-35": {
+        "bpm": [
+          55,
+          70
+        ],
+        "energy": [
+          0.25,
+          0.4
+        ],
+        "mood": "calm",
+        "genre": [
+          "jazz",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Calm Jazz Relax"
+      },
+      "36-50": {
+        "bpm": [
+          58,
+          73
+        ],
+        "energy": [
+          0.28,
+          0.43
+        ],
+        "mood": "calm",
+        "genre": [
+          "jazz",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Calm Jazz Relax"
+      },
+      "51-65": {
+        "bpm": [
+          60,
+          75
+        ],
+        "energy": [
+          0.3,
+          0.45
+        ],
+        "mood": "calm",
+        "genre": [
+          "jazz",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Calm Jazz Relax"
+      },
+      "66-80": {
+        "bpm": [
+          70,
+          85
+        ],
+        "energy": [
+          0.4,
+          0.55
+        ],
+        "mood": "calm",
+        "genre": [
+          "jazz",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Calm Jazz Relax"
+      },
+      "81-100": {
+        "bpm": [
+          55,
+          70
+        ],
+        "energy": [
+          0.25,
+          0.4
+        ],
+        "mood": "calm",
+        "genre": [
+          "jazz",
+          "acoustic"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Calm Jazz Relax"
+      }
+    },
+    "reading": {
+      "0-35": {
+        "bpm": [
+          53,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.3
+        ],
+        "mood": "calm",
+        "genre": [
+          "piano",
+          "classical"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Calm Piano Reading"
+      },
+      "36-50": {
+        "bpm": [
+          56,
+          63
+        ],
+        "energy": [
+          0.28,
+          0.33
+        ],
+        "mood": "calm",
+        "genre": [
+          "piano",
+          "classical"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Calm Piano Reading"
+      },
+      "51-65": {
+        "bpm": [
+          58,
+          65
+        ],
+        "energy": [
+          0.3,
+          0.35
+        ],
+        "mood": "calm",
+        "genre": [
+          "piano",
+          "classical"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Calm Piano Reading"
+      },
+      "66-80": {
+        "bpm": [
+          68,
+          75
+        ],
+        "energy": [
+          0.4,
+          0.45
+        ],
+        "mood": "calm",
+        "genre": [
+          "piano",
+          "classical"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Calm Piano Reading"
+      },
+      "81-100": {
+        "bpm": [
+          53,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.3
+        ],
+        "mood": "calm",
+        "genre": [
+          "piano",
+          "classical"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Calm Piano Reading"
+      }
+    },
+    "neutral": {
+      "0-35": {
+        "bpm": [
+          55,
+          57
+        ],
+        "energy": [
+          0.27,
+          0.29
+        ],
+        "mood": "calm",
+        "genre": [
+          "ambient",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Calm Ambient Neutral"
+      },
+      "36-50": {
+        "bpm": [
+          58,
+          60
+        ],
+        "energy": [
+          0.3,
+          0.32
+        ],
+        "mood": "calm",
+        "genre": [
+          "ambient",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Calm Ambient Neutral"
+      },
+      "51-65": {
+        "bpm": [
+          60,
+          62
+        ],
+        "energy": [
+          0.32,
+          0.34
+        ],
+        "mood": "calm",
+        "genre": [
+          "ambient",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Calm Ambient Neutral"
+      },
+      "66-80": {
+        "bpm": [
+          70,
+          72
+        ],
+        "energy": [
+          0.42,
+          0.44
+        ],
+        "mood": "calm",
+        "genre": [
+          "ambient",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Calm Ambient Neutral"
+      },
+      "81-100": {
+        "bpm": [
+          55,
+          57
+        ],
+        "energy": [
+          0.27,
+          0.29
+        ],
+        "mood": "calm",
+        "genre": [
+          "ambient",
+          "acoustic"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Calm Ambient Neutral"
+      }
+    },
+    "meditate": {
+      "0-35": {
+        "bpm": [
+          55,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.32
+        ],
+        "mood": "serene",
+        "genre": [
+          "ambient drone",
+          "binaural"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Serene Ambient Drone Meditate"
+      },
+      "36-50": {
+        "bpm": [
+          55,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.32
+        ],
+        "mood": "serene",
+        "genre": [
+          "ambient drone",
+          "binaural"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Serene Ambient Drone Meditate"
+      },
+      "51-65": {
+        "bpm": [
+          55,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.32
+        ],
+        "mood": "serene",
+        "genre": [
+          "ambient drone",
+          "binaural"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Serene Ambient Drone Meditate"
+      },
+      "66-80": {
+        "bpm": [
+          55,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.32
+        ],
+        "mood": "serene",
+        "genre": [
+          "ambient drone",
+          "binaural"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Serene Ambient Drone Meditate"
+      },
+      "81-100": {
+        "bpm": [
+          55,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.32
+        ],
+        "mood": "serene",
+        "genre": [
+          "ambient drone",
+          "binaural"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Serene Ambient Drone Meditate"
+      }
+    },
+    "sleep": {
+      "0-35": {
+        "bpm": [
+          55,
+          55
+        ],
+        "energy": [
+          0.2,
+          0.22
+        ],
+        "mood": "soothing",
+        "genre": [
+          "ambient",
+          "white noise"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Soothing Ambient Sleep"
+      },
+      "36-50": {
+        "bpm": [
+          55,
+          55
+        ],
+        "energy": [
+          0.2,
+          0.22
+        ],
+        "mood": "soothing",
+        "genre": [
+          "ambient",
+          "white noise"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Soothing Ambient Sleep"
+      },
+      "51-65": {
+        "bpm": [
+          55,
+          55
+        ],
+        "energy": [
+          0.2,
+          0.22
+        ],
+        "mood": "soothing",
+        "genre": [
+          "ambient",
+          "white noise"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Soothing Ambient Sleep"
+      },
+      "66-80": {
+        "bpm": [
+          55,
+          55
+        ],
+        "energy": [
+          0.2,
+          0.22
+        ],
+        "mood": "soothing",
+        "genre": [
+          "ambient",
+          "white noise"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Soothing Ambient Sleep"
+      },
+      "81-100": {
+        "bpm": [
+          55,
+          55
+        ],
+        "energy": [
+          0.2,
+          0.22
+        ],
+        "mood": "soothing",
+        "genre": [
+          "ambient",
+          "white noise"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Soothing Ambient Sleep"
+      }
+    }
+  },
+  "home": {
+    "active": {
+      "0-35": {
+        "bpm": [
+          105,
+          115
+        ],
+        "energy": [
+          0.6,
+          0.75
+        ],
+        "mood": "neutral",
+        "genre": [
+          "pop",
+          "edm"
+        ],
+        "vocal": "vocal-heavy",
+        "playlist_seed": "Neutral Pop Active"
+      },
+      "36-50": {
+        "bpm": [
+          108,
+          118
+        ],
+        "energy": [
+          0.63,
+          0.78
+        ],
+        "mood": "neutral",
+        "genre": [
+          "pop",
+          "edm"
+        ],
+        "vocal": "vocal-heavy",
+        "playlist_seed": "Neutral Pop Active"
+      },
+      "51-65": {
+        "bpm": [
+          110,
+          120
+        ],
+        "energy": [
+          0.65,
+          0.8
+        ],
+        "mood": "neutral",
+        "genre": [
+          "pop",
+          "edm"
+        ],
+        "vocal": "vocal-heavy",
+        "playlist_seed": "Neutral Pop Active"
+      },
+      "66-80": {
+        "bpm": [
+          120,
+          130
+        ],
+        "energy": [
+          0.75,
+          0.9
+        ],
+        "mood": "neutral",
+        "genre": [
+          "pop",
+          "edm"
+        ],
+        "vocal": "vocal-heavy",
+        "playlist_seed": "Neutral Pop Active"
+      },
+      "81-100": {
+        "bpm": [
+          105,
+          115
+        ],
+        "energy": [
+          0.6,
+          0.75
+        ],
+        "mood": "neutral",
+        "genre": [
+          "pop",
+          "edm"
+        ],
+        "vocal": "vocal-heavy",
+        "playlist_seed": "Neutral Pop Active"
+      }
+    },
+    "focus": {
+      "0-35": {
+        "bpm": [
+          70,
+          85
+        ],
+        "energy": [
+          0.35,
+          0.5
+        ],
+        "mood": "neutral",
+        "genre": [
+          "lo-fi",
+          "instrumental hiphop"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Neutral Lo-Fi Focus"
+      },
+      "36-50": {
+        "bpm": [
+          73,
+          88
+        ],
+        "energy": [
+          0.38,
+          0.53
+        ],
+        "mood": "neutral",
+        "genre": [
+          "lo-fi",
+          "instrumental hiphop"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Neutral Lo-Fi Focus"
+      },
+      "51-65": {
+        "bpm": [
+          75,
+          90
+        ],
+        "energy": [
+          0.4,
+          0.55
+        ],
+        "mood": "neutral",
+        "genre": [
+          "lo-fi",
+          "instrumental hiphop"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Neutral Lo-Fi Focus"
+      },
+      "66-80": {
+        "bpm": [
+          85,
+          100
+        ],
+        "energy": [
+          0.5,
+          0.65
+        ],
+        "mood": "neutral",
+        "genre": [
+          "lo-fi",
+          "instrumental hiphop"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Neutral Lo-Fi Focus"
+      },
+      "81-100": {
+        "bpm": [
+          70,
+          85
+        ],
+        "energy": [
+          0.35,
+          0.5
+        ],
+        "mood": "neutral",
+        "genre": [
+          "lo-fi",
+          "instrumental hiphop"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Neutral Lo-Fi Focus"
+      }
+    },
+    "relax": {
+      "0-35": {
+        "bpm": [
+          55,
+          70
+        ],
+        "energy": [
+          0.25,
+          0.4
+        ],
+        "mood": "neutral",
+        "genre": [
+          "jazz",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Neutral Jazz Relax"
+      },
+      "36-50": {
+        "bpm": [
+          58,
+          73
+        ],
+        "energy": [
+          0.28,
+          0.43
+        ],
+        "mood": "neutral",
+        "genre": [
+          "jazz",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Neutral Jazz Relax"
+      },
+      "51-65": {
+        "bpm": [
+          60,
+          75
+        ],
+        "energy": [
+          0.3,
+          0.45
+        ],
+        "mood": "neutral",
+        "genre": [
+          "jazz",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Neutral Jazz Relax"
+      },
+      "66-80": {
+        "bpm": [
+          70,
+          85
+        ],
+        "energy": [
+          0.4,
+          0.55
+        ],
+        "mood": "neutral",
+        "genre": [
+          "jazz",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Neutral Jazz Relax"
+      },
+      "81-100": {
+        "bpm": [
+          55,
+          70
+        ],
+        "energy": [
+          0.25,
+          0.4
+        ],
+        "mood": "neutral",
+        "genre": [
+          "jazz",
+          "acoustic"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Neutral Jazz Relax"
+      }
+    },
+    "reading": {
+      "0-35": {
+        "bpm": [
+          53,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.3
+        ],
+        "mood": "neutral",
+        "genre": [
+          "piano",
+          "classical"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Neutral Piano Reading"
+      },
+      "36-50": {
+        "bpm": [
+          56,
+          63
+        ],
+        "energy": [
+          0.28,
+          0.33
+        ],
+        "mood": "neutral",
+        "genre": [
+          "piano",
+          "classical"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Neutral Piano Reading"
+      },
+      "51-65": {
+        "bpm": [
+          58,
+          65
+        ],
+        "energy": [
+          0.3,
+          0.35
+        ],
+        "mood": "neutral",
+        "genre": [
+          "piano",
+          "classical"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Neutral Piano Reading"
+      },
+      "66-80": {
+        "bpm": [
+          68,
+          75
+        ],
+        "energy": [
+          0.4,
+          0.45
+        ],
+        "mood": "neutral",
+        "genre": [
+          "piano",
+          "classical"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Neutral Piano Reading"
+      },
+      "81-100": {
+        "bpm": [
+          53,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.3
+        ],
+        "mood": "neutral",
+        "genre": [
+          "piano",
+          "classical"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Neutral Piano Reading"
+      }
+    },
+    "neutral": {
+      "0-35": {
+        "bpm": [
+          55,
+          57
+        ],
+        "energy": [
+          0.27,
+          0.29
+        ],
+        "mood": "neutral",
+        "genre": [
+          "ambient",
+          "acoustic"
+        ],
+        "vocal": "mixed",
+        "playlist_seed": "Neutral Ambient Neutral"
+      },
+      "36-50": {
+        "bpm": [
+          58,
+          60
+        ],
+        "energy": [
+          0.3,
+          0.32
+        ],
+        "mood": "neutral",
+        "genre": [
+          "ambient",
+          "acoustic"
+        ],
+        "vocal": "mixed",
+        "playlist_seed": "Neutral Ambient Neutral"
+      },
+      "51-65": {
+        "bpm": [
+          60,
+          62
+        ],
+        "energy": [
+          0.32,
+          0.34
+        ],
+        "mood": "neutral",
+        "genre": [
+          "ambient",
+          "acoustic"
+        ],
+        "vocal": "mixed",
+        "playlist_seed": "Neutral Ambient Neutral"
+      },
+      "66-80": {
+        "bpm": [
+          70,
+          72
+        ],
+        "energy": [
+          0.42,
+          0.44
+        ],
+        "mood": "neutral",
+        "genre": [
+          "ambient",
+          "acoustic"
+        ],
+        "vocal": "mixed",
+        "playlist_seed": "Neutral Ambient Neutral"
+      },
+      "81-100": {
+        "bpm": [
+          55,
+          57
+        ],
+        "energy": [
+          0.27,
+          0.29
+        ],
+        "mood": "neutral",
+        "genre": [
+          "ambient",
+          "acoustic"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Neutral Ambient Neutral"
+      }
+    },
+    "meditate": {
+      "0-35": {
+        "bpm": [
+          55,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.32
+        ],
+        "mood": "neutral",
+        "genre": [
+          "ambient drone",
+          "binaural"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Neutral Ambient Drone Meditate"
+      },
+      "36-50": {
+        "bpm": [
+          55,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.32
+        ],
+        "mood": "neutral",
+        "genre": [
+          "ambient drone",
+          "binaural"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Neutral Ambient Drone Meditate"
+      },
+      "51-65": {
+        "bpm": [
+          55,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.32
+        ],
+        "mood": "neutral",
+        "genre": [
+          "ambient drone",
+          "binaural"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Neutral Ambient Drone Meditate"
+      },
+      "66-80": {
+        "bpm": [
+          55,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.32
+        ],
+        "mood": "neutral",
+        "genre": [
+          "ambient drone",
+          "binaural"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Neutral Ambient Drone Meditate"
+      },
+      "81-100": {
+        "bpm": [
+          55,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.32
+        ],
+        "mood": "neutral",
+        "genre": [
+          "ambient drone",
+          "binaural"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Neutral Ambient Drone Meditate"
+      }
+    },
+    "sleep": {
+      "0-35": {
+        "bpm": [
+          55,
+          55
+        ],
+        "energy": [
+          0.2,
+          0.22
+        ],
+        "mood": "neutral",
+        "genre": [
+          "ambient",
+          "white noise"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Neutral Ambient Sleep"
+      },
+      "36-50": {
+        "bpm": [
+          55,
+          55
+        ],
+        "energy": [
+          0.2,
+          0.22
+        ],
+        "mood": "neutral",
+        "genre": [
+          "ambient",
+          "white noise"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Neutral Ambient Sleep"
+      },
+      "51-65": {
+        "bpm": [
+          55,
+          55
+        ],
+        "energy": [
+          0.2,
+          0.22
+        ],
+        "mood": "neutral",
+        "genre": [
+          "ambient",
+          "white noise"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Neutral Ambient Sleep"
+      },
+      "66-80": {
+        "bpm": [
+          55,
+          55
+        ],
+        "energy": [
+          0.2,
+          0.22
+        ],
+        "mood": "neutral",
+        "genre": [
+          "ambient",
+          "white noise"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Neutral Ambient Sleep"
+      },
+      "81-100": {
+        "bpm": [
+          55,
+          55
+        ],
+        "energy": [
+          0.2,
+          0.22
+        ],
+        "mood": "neutral",
+        "genre": [
+          "ambient",
+          "white noise"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Neutral Ambient Sleep"
+      }
+    }
+  },
+  "office": {
+    "active": {
+      "0-35": {
+        "bpm": [
+          105,
+          115
+        ],
+        "energy": [
+          0.6,
+          0.75
+        ],
+        "mood": "focus",
+        "genre": [
+          "pop",
+          "edm"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Focus Pop Active"
+      },
+      "36-50": {
+        "bpm": [
+          108,
+          118
+        ],
+        "energy": [
+          0.63,
+          0.78
+        ],
+        "mood": "focus",
+        "genre": [
+          "pop",
+          "edm"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Focus Pop Active"
+      },
+      "51-65": {
+        "bpm": [
+          110,
+          120
+        ],
+        "energy": [
+          0.65,
+          0.8
+        ],
+        "mood": "focus",
+        "genre": [
+          "pop",
+          "edm"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Focus Pop Active"
+      },
+      "66-80": {
+        "bpm": [
+          120,
+          130
+        ],
+        "energy": [
+          0.75,
+          0.9
+        ],
+        "mood": "focus",
+        "genre": [
+          "pop",
+          "edm"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Focus Pop Active"
+      },
+      "81-100": {
+        "bpm": [
+          105,
+          115
+        ],
+        "energy": [
+          0.6,
+          0.75
+        ],
+        "mood": "focus",
+        "genre": [
+          "pop",
+          "edm"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Focus Pop Active"
+      }
+    },
+    "focus": {
+      "0-35": {
+        "bpm": [
+          70,
+          85
+        ],
+        "energy": [
+          0.35,
+          0.5
+        ],
+        "mood": "focus",
+        "genre": [
+          "lo-fi",
+          "instrumental hiphop"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Focus Lo-Fi Focus"
+      },
+      "36-50": {
+        "bpm": [
+          73,
+          88
+        ],
+        "energy": [
+          0.38,
+          0.53
+        ],
+        "mood": "focus",
+        "genre": [
+          "lo-fi",
+          "instrumental hiphop"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Focus Lo-Fi Focus"
+      },
+      "51-65": {
+        "bpm": [
+          75,
+          90
+        ],
+        "energy": [
+          0.4,
+          0.55
+        ],
+        "mood": "focus",
+        "genre": [
+          "lo-fi",
+          "instrumental hiphop"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Focus Lo-Fi Focus"
+      },
+      "66-80": {
+        "bpm": [
+          85,
+          100
+        ],
+        "energy": [
+          0.5,
+          0.65
+        ],
+        "mood": "focus",
+        "genre": [
+          "lo-fi",
+          "instrumental hiphop"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Focus Lo-Fi Focus"
+      },
+      "81-100": {
+        "bpm": [
+          70,
+          85
+        ],
+        "energy": [
+          0.35,
+          0.5
+        ],
+        "mood": "focus",
+        "genre": [
+          "lo-fi",
+          "instrumental hiphop"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Focus Lo-Fi Focus"
+      }
+    },
+    "relax": {
+      "0-35": {
+        "bpm": [
+          55,
+          70
+        ],
+        "energy": [
+          0.25,
+          0.4
+        ],
+        "mood": "focus",
+        "genre": [
+          "jazz",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Focus Jazz Relax"
+      },
+      "36-50": {
+        "bpm": [
+          58,
+          73
+        ],
+        "energy": [
+          0.28,
+          0.43
+        ],
+        "mood": "focus",
+        "genre": [
+          "jazz",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Focus Jazz Relax"
+      },
+      "51-65": {
+        "bpm": [
+          60,
+          75
+        ],
+        "energy": [
+          0.3,
+          0.45
+        ],
+        "mood": "focus",
+        "genre": [
+          "jazz",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Focus Jazz Relax"
+      },
+      "66-80": {
+        "bpm": [
+          70,
+          85
+        ],
+        "energy": [
+          0.4,
+          0.55
+        ],
+        "mood": "focus",
+        "genre": [
+          "jazz",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Focus Jazz Relax"
+      },
+      "81-100": {
+        "bpm": [
+          55,
+          70
+        ],
+        "energy": [
+          0.25,
+          0.4
+        ],
+        "mood": "focus",
+        "genre": [
+          "jazz",
+          "acoustic"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Focus Jazz Relax"
+      }
+    },
+    "reading": {
+      "0-35": {
+        "bpm": [
+          53,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.3
+        ],
+        "mood": "focus",
+        "genre": [
+          "piano",
+          "classical"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Focus Piano Reading"
+      },
+      "36-50": {
+        "bpm": [
+          56,
+          63
+        ],
+        "energy": [
+          0.28,
+          0.33
+        ],
+        "mood": "focus",
+        "genre": [
+          "piano",
+          "classical"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Focus Piano Reading"
+      },
+      "51-65": {
+        "bpm": [
+          58,
+          65
+        ],
+        "energy": [
+          0.3,
+          0.35
+        ],
+        "mood": "focus",
+        "genre": [
+          "piano",
+          "classical"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Focus Piano Reading"
+      },
+      "66-80": {
+        "bpm": [
+          68,
+          75
+        ],
+        "energy": [
+          0.4,
+          0.45
+        ],
+        "mood": "focus",
+        "genre": [
+          "piano",
+          "classical"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Focus Piano Reading"
+      },
+      "81-100": {
+        "bpm": [
+          53,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.3
+        ],
+        "mood": "focus",
+        "genre": [
+          "piano",
+          "classical"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Focus Piano Reading"
+      }
+    },
+    "neutral": {
+      "0-35": {
+        "bpm": [
+          55,
+          57
+        ],
+        "energy": [
+          0.27,
+          0.29
+        ],
+        "mood": "focus",
+        "genre": [
+          "ambient",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Focus Ambient Neutral"
+      },
+      "36-50": {
+        "bpm": [
+          58,
+          60
+        ],
+        "energy": [
+          0.3,
+          0.32
+        ],
+        "mood": "focus",
+        "genre": [
+          "ambient",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Focus Ambient Neutral"
+      },
+      "51-65": {
+        "bpm": [
+          60,
+          62
+        ],
+        "energy": [
+          0.32,
+          0.34
+        ],
+        "mood": "focus",
+        "genre": [
+          "ambient",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Focus Ambient Neutral"
+      },
+      "66-80": {
+        "bpm": [
+          70,
+          72
+        ],
+        "energy": [
+          0.42,
+          0.44
+        ],
+        "mood": "focus",
+        "genre": [
+          "ambient",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Focus Ambient Neutral"
+      },
+      "81-100": {
+        "bpm": [
+          55,
+          57
+        ],
+        "energy": [
+          0.27,
+          0.29
+        ],
+        "mood": "focus",
+        "genre": [
+          "ambient",
+          "acoustic"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Focus Ambient Neutral"
+      }
+    },
+    "meditate": {
+      "0-35": {
+        "bpm": [
+          55,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.32
+        ],
+        "mood": "focus",
+        "genre": [
+          "ambient drone",
+          "binaural"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Focus Ambient Drone Meditate"
+      },
+      "36-50": {
+        "bpm": [
+          55,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.32
+        ],
+        "mood": "focus",
+        "genre": [
+          "ambient drone",
+          "binaural"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Focus Ambient Drone Meditate"
+      },
+      "51-65": {
+        "bpm": [
+          55,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.32
+        ],
+        "mood": "focus",
+        "genre": [
+          "ambient drone",
+          "binaural"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Focus Ambient Drone Meditate"
+      },
+      "66-80": {
+        "bpm": [
+          55,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.32
+        ],
+        "mood": "focus",
+        "genre": [
+          "ambient drone",
+          "binaural"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Focus Ambient Drone Meditate"
+      },
+      "81-100": {
+        "bpm": [
+          55,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.32
+        ],
+        "mood": "focus",
+        "genre": [
+          "ambient drone",
+          "binaural"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Focus Ambient Drone Meditate"
+      }
+    },
+    "sleep": {
+      "0-35": {
+        "bpm": [
+          55,
+          55
+        ],
+        "energy": [
+          0.2,
+          0.22
+        ],
+        "mood": "focus",
+        "genre": [
+          "ambient",
+          "white noise"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Focus Ambient Sleep"
+      },
+      "36-50": {
+        "bpm": [
+          55,
+          55
+        ],
+        "energy": [
+          0.2,
+          0.22
+        ],
+        "mood": "focus",
+        "genre": [
+          "ambient",
+          "white noise"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Focus Ambient Sleep"
+      },
+      "51-65": {
+        "bpm": [
+          55,
+          55
+        ],
+        "energy": [
+          0.2,
+          0.22
+        ],
+        "mood": "focus",
+        "genre": [
+          "ambient",
+          "white noise"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Focus Ambient Sleep"
+      },
+      "66-80": {
+        "bpm": [
+          55,
+          55
+        ],
+        "energy": [
+          0.2,
+          0.22
+        ],
+        "mood": "focus",
+        "genre": [
+          "ambient",
+          "white noise"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Focus Ambient Sleep"
+      },
+      "81-100": {
+        "bpm": [
+          55,
+          55
+        ],
+        "energy": [
+          0.2,
+          0.22
+        ],
+        "mood": "focus",
+        "genre": [
+          "ambient",
+          "white noise"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Focus Ambient Sleep"
+      }
+    }
+  },
+  "cafe": {
+    "active": {
+      "0-35": {
+        "bpm": [
+          105,
+          115
+        ],
+        "energy": [
+          0.6,
+          0.75
+        ],
+        "mood": "chill",
+        "genre": [
+          "pop",
+          "edm"
+        ],
+        "vocal": "vocal-heavy",
+        "playlist_seed": "Chill Pop Active"
+      },
+      "36-50": {
+        "bpm": [
+          108,
+          118
+        ],
+        "energy": [
+          0.63,
+          0.78
+        ],
+        "mood": "chill",
+        "genre": [
+          "pop",
+          "edm"
+        ],
+        "vocal": "vocal-heavy",
+        "playlist_seed": "Chill Pop Active"
+      },
+      "51-65": {
+        "bpm": [
+          110,
+          120
+        ],
+        "energy": [
+          0.65,
+          0.8
+        ],
+        "mood": "chill",
+        "genre": [
+          "pop",
+          "edm"
+        ],
+        "vocal": "vocal-heavy",
+        "playlist_seed": "Chill Pop Active"
+      },
+      "66-80": {
+        "bpm": [
+          120,
+          130
+        ],
+        "energy": [
+          0.75,
+          0.9
+        ],
+        "mood": "chill",
+        "genre": [
+          "pop",
+          "edm"
+        ],
+        "vocal": "vocal-heavy",
+        "playlist_seed": "Chill Pop Active"
+      },
+      "81-100": {
+        "bpm": [
+          105,
+          115
+        ],
+        "energy": [
+          0.6,
+          0.75
+        ],
+        "mood": "chill",
+        "genre": [
+          "pop",
+          "edm"
+        ],
+        "vocal": "vocal-heavy",
+        "playlist_seed": "Chill Pop Active"
+      }
+    },
+    "focus": {
+      "0-35": {
+        "bpm": [
+          70,
+          85
+        ],
+        "energy": [
+          0.35,
+          0.5
+        ],
+        "mood": "chill",
+        "genre": [
+          "lo-fi",
+          "instrumental hiphop"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Chill Lo-Fi Focus"
+      },
+      "36-50": {
+        "bpm": [
+          73,
+          88
+        ],
+        "energy": [
+          0.38,
+          0.53
+        ],
+        "mood": "chill",
+        "genre": [
+          "lo-fi",
+          "instrumental hiphop"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Chill Lo-Fi Focus"
+      },
+      "51-65": {
+        "bpm": [
+          75,
+          90
+        ],
+        "energy": [
+          0.4,
+          0.55
+        ],
+        "mood": "chill",
+        "genre": [
+          "lo-fi",
+          "instrumental hiphop"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Chill Lo-Fi Focus"
+      },
+      "66-80": {
+        "bpm": [
+          85,
+          100
+        ],
+        "energy": [
+          0.5,
+          0.65
+        ],
+        "mood": "chill",
+        "genre": [
+          "lo-fi",
+          "instrumental hiphop"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Chill Lo-Fi Focus"
+      },
+      "81-100": {
+        "bpm": [
+          70,
+          85
+        ],
+        "energy": [
+          0.35,
+          0.5
+        ],
+        "mood": "chill",
+        "genre": [
+          "lo-fi",
+          "instrumental hiphop"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Chill Lo-Fi Focus"
+      }
+    },
+    "relax": {
+      "0-35": {
+        "bpm": [
+          55,
+          70
+        ],
+        "energy": [
+          0.25,
+          0.4
+        ],
+        "mood": "chill",
+        "genre": [
+          "jazz",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Chill Jazz Relax"
+      },
+      "36-50": {
+        "bpm": [
+          58,
+          73
+        ],
+        "energy": [
+          0.28,
+          0.43
+        ],
+        "mood": "chill",
+        "genre": [
+          "jazz",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Chill Jazz Relax"
+      },
+      "51-65": {
+        "bpm": [
+          60,
+          75
+        ],
+        "energy": [
+          0.3,
+          0.45
+        ],
+        "mood": "chill",
+        "genre": [
+          "jazz",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Chill Jazz Relax"
+      },
+      "66-80": {
+        "bpm": [
+          70,
+          85
+        ],
+        "energy": [
+          0.4,
+          0.55
+        ],
+        "mood": "chill",
+        "genre": [
+          "jazz",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Chill Jazz Relax"
+      },
+      "81-100": {
+        "bpm": [
+          55,
+          70
+        ],
+        "energy": [
+          0.25,
+          0.4
+        ],
+        "mood": "chill",
+        "genre": [
+          "jazz",
+          "acoustic"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Chill Jazz Relax"
+      }
+    },
+    "reading": {
+      "0-35": {
+        "bpm": [
+          53,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.3
+        ],
+        "mood": "chill",
+        "genre": [
+          "piano",
+          "classical"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Chill Piano Reading"
+      },
+      "36-50": {
+        "bpm": [
+          56,
+          63
+        ],
+        "energy": [
+          0.28,
+          0.33
+        ],
+        "mood": "chill",
+        "genre": [
+          "piano",
+          "classical"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Chill Piano Reading"
+      },
+      "51-65": {
+        "bpm": [
+          58,
+          65
+        ],
+        "energy": [
+          0.3,
+          0.35
+        ],
+        "mood": "chill",
+        "genre": [
+          "piano",
+          "classical"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Chill Piano Reading"
+      },
+      "66-80": {
+        "bpm": [
+          68,
+          75
+        ],
+        "energy": [
+          0.4,
+          0.45
+        ],
+        "mood": "chill",
+        "genre": [
+          "piano",
+          "classical"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Chill Piano Reading"
+      },
+      "81-100": {
+        "bpm": [
+          53,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.3
+        ],
+        "mood": "chill",
+        "genre": [
+          "piano",
+          "classical"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Chill Piano Reading"
+      }
+    },
+    "neutral": {
+      "0-35": {
+        "bpm": [
+          55,
+          57
+        ],
+        "energy": [
+          0.27,
+          0.29
+        ],
+        "mood": "chill",
+        "genre": [
+          "ambient",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Chill Ambient Neutral"
+      },
+      "36-50": {
+        "bpm": [
+          58,
+          60
+        ],
+        "energy": [
+          0.3,
+          0.32
+        ],
+        "mood": "chill",
+        "genre": [
+          "ambient",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Chill Ambient Neutral"
+      },
+      "51-65": {
+        "bpm": [
+          60,
+          62
+        ],
+        "energy": [
+          0.32,
+          0.34
+        ],
+        "mood": "chill",
+        "genre": [
+          "ambient",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Chill Ambient Neutral"
+      },
+      "66-80": {
+        "bpm": [
+          70,
+          72
+        ],
+        "energy": [
+          0.42,
+          0.44
+        ],
+        "mood": "chill",
+        "genre": [
+          "ambient",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Chill Ambient Neutral"
+      },
+      "81-100": {
+        "bpm": [
+          55,
+          57
+        ],
+        "energy": [
+          0.27,
+          0.29
+        ],
+        "mood": "chill",
+        "genre": [
+          "ambient",
+          "acoustic"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Chill Ambient Neutral"
+      }
+    },
+    "meditate": {
+      "0-35": {
+        "bpm": [
+          55,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.32
+        ],
+        "mood": "chill",
+        "genre": [
+          "ambient drone",
+          "binaural"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Chill Ambient Drone Meditate"
+      },
+      "36-50": {
+        "bpm": [
+          55,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.32
+        ],
+        "mood": "chill",
+        "genre": [
+          "ambient drone",
+          "binaural"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Chill Ambient Drone Meditate"
+      },
+      "51-65": {
+        "bpm": [
+          55,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.32
+        ],
+        "mood": "chill",
+        "genre": [
+          "ambient drone",
+          "binaural"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Chill Ambient Drone Meditate"
+      },
+      "66-80": {
+        "bpm": [
+          55,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.32
+        ],
+        "mood": "chill",
+        "genre": [
+          "ambient drone",
+          "binaural"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Chill Ambient Drone Meditate"
+      },
+      "81-100": {
+        "bpm": [
+          55,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.32
+        ],
+        "mood": "chill",
+        "genre": [
+          "ambient drone",
+          "binaural"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Chill Ambient Drone Meditate"
+      }
+    },
+    "sleep": {
+      "0-35": {
+        "bpm": [
+          55,
+          55
+        ],
+        "energy": [
+          0.2,
+          0.22
+        ],
+        "mood": "chill",
+        "genre": [
+          "ambient",
+          "white noise"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Chill Ambient Sleep"
+      },
+      "36-50": {
+        "bpm": [
+          55,
+          55
+        ],
+        "energy": [
+          0.2,
+          0.22
+        ],
+        "mood": "chill",
+        "genre": [
+          "ambient",
+          "white noise"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Chill Ambient Sleep"
+      },
+      "51-65": {
+        "bpm": [
+          55,
+          55
+        ],
+        "energy": [
+          0.2,
+          0.22
+        ],
+        "mood": "chill",
+        "genre": [
+          "ambient",
+          "white noise"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Chill Ambient Sleep"
+      },
+      "66-80": {
+        "bpm": [
+          55,
+          55
+        ],
+        "energy": [
+          0.2,
+          0.22
+        ],
+        "mood": "chill",
+        "genre": [
+          "ambient",
+          "white noise"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Chill Ambient Sleep"
+      },
+      "81-100": {
+        "bpm": [
+          55,
+          55
+        ],
+        "energy": [
+          0.2,
+          0.22
+        ],
+        "mood": "chill",
+        "genre": [
+          "ambient",
+          "white noise"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Chill Ambient Sleep"
+      }
+    }
+  },
+  "outdoor": {
+    "active": {
+      "0-35": {
+        "bpm": [
+          105,
+          115
+        ],
+        "energy": [
+          0.6,
+          0.75
+        ],
+        "mood": "chill",
+        "genre": [
+          "pop",
+          "edm"
+        ],
+        "vocal": "vocal-heavy",
+        "playlist_seed": "Chill Pop Active"
+      },
+      "36-50": {
+        "bpm": [
+          108,
+          118
+        ],
+        "energy": [
+          0.63,
+          0.78
+        ],
+        "mood": "chill",
+        "genre": [
+          "pop",
+          "edm"
+        ],
+        "vocal": "vocal-heavy",
+        "playlist_seed": "Chill Pop Active"
+      },
+      "51-65": {
+        "bpm": [
+          110,
+          120
+        ],
+        "energy": [
+          0.65,
+          0.8
+        ],
+        "mood": "chill",
+        "genre": [
+          "pop",
+          "edm"
+        ],
+        "vocal": "vocal-heavy",
+        "playlist_seed": "Chill Pop Active"
+      },
+      "66-80": {
+        "bpm": [
+          120,
+          130
+        ],
+        "energy": [
+          0.75,
+          0.9
+        ],
+        "mood": "chill",
+        "genre": [
+          "pop",
+          "edm"
+        ],
+        "vocal": "vocal-heavy",
+        "playlist_seed": "Chill Pop Active"
+      },
+      "81-100": {
+        "bpm": [
+          105,
+          115
+        ],
+        "energy": [
+          0.6,
+          0.75
+        ],
+        "mood": "chill",
+        "genre": [
+          "pop",
+          "edm"
+        ],
+        "vocal": "vocal-heavy",
+        "playlist_seed": "Chill Pop Active"
+      }
+    },
+    "focus": {
+      "0-35": {
+        "bpm": [
+          70,
+          85
+        ],
+        "energy": [
+          0.35,
+          0.5
+        ],
+        "mood": "chill",
+        "genre": [
+          "lo-fi",
+          "instrumental hiphop"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Chill Lo-Fi Focus"
+      },
+      "36-50": {
+        "bpm": [
+          73,
+          88
+        ],
+        "energy": [
+          0.38,
+          0.53
+        ],
+        "mood": "chill",
+        "genre": [
+          "lo-fi",
+          "instrumental hiphop"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Chill Lo-Fi Focus"
+      },
+      "51-65": {
+        "bpm": [
+          75,
+          90
+        ],
+        "energy": [
+          0.4,
+          0.55
+        ],
+        "mood": "chill",
+        "genre": [
+          "lo-fi",
+          "instrumental hiphop"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Chill Lo-Fi Focus"
+      },
+      "66-80": {
+        "bpm": [
+          85,
+          100
+        ],
+        "energy": [
+          0.5,
+          0.65
+        ],
+        "mood": "chill",
+        "genre": [
+          "lo-fi",
+          "instrumental hiphop"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Chill Lo-Fi Focus"
+      },
+      "81-100": {
+        "bpm": [
+          70,
+          85
+        ],
+        "energy": [
+          0.35,
+          0.5
+        ],
+        "mood": "chill",
+        "genre": [
+          "lo-fi",
+          "instrumental hiphop"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Chill Lo-Fi Focus"
+      }
+    },
+    "relax": {
+      "0-35": {
+        "bpm": [
+          55,
+          70
+        ],
+        "energy": [
+          0.25,
+          0.4
+        ],
+        "mood": "chill",
+        "genre": [
+          "jazz",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Chill Jazz Relax"
+      },
+      "36-50": {
+        "bpm": [
+          58,
+          73
+        ],
+        "energy": [
+          0.28,
+          0.43
+        ],
+        "mood": "chill",
+        "genre": [
+          "jazz",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Chill Jazz Relax"
+      },
+      "51-65": {
+        "bpm": [
+          60,
+          75
+        ],
+        "energy": [
+          0.3,
+          0.45
+        ],
+        "mood": "chill",
+        "genre": [
+          "jazz",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Chill Jazz Relax"
+      },
+      "66-80": {
+        "bpm": [
+          70,
+          85
+        ],
+        "energy": [
+          0.4,
+          0.55
+        ],
+        "mood": "chill",
+        "genre": [
+          "jazz",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Chill Jazz Relax"
+      },
+      "81-100": {
+        "bpm": [
+          55,
+          70
+        ],
+        "energy": [
+          0.25,
+          0.4
+        ],
+        "mood": "chill",
+        "genre": [
+          "jazz",
+          "acoustic"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Chill Jazz Relax"
+      }
+    },
+    "reading": {
+      "0-35": {
+        "bpm": [
+          53,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.3
+        ],
+        "mood": "chill",
+        "genre": [
+          "piano",
+          "classical"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Chill Piano Reading"
+      },
+      "36-50": {
+        "bpm": [
+          56,
+          63
+        ],
+        "energy": [
+          0.28,
+          0.33
+        ],
+        "mood": "chill",
+        "genre": [
+          "piano",
+          "classical"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Chill Piano Reading"
+      },
+      "51-65": {
+        "bpm": [
+          58,
+          65
+        ],
+        "energy": [
+          0.3,
+          0.35
+        ],
+        "mood": "chill",
+        "genre": [
+          "piano",
+          "classical"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Chill Piano Reading"
+      },
+      "66-80": {
+        "bpm": [
+          68,
+          75
+        ],
+        "energy": [
+          0.4,
+          0.45
+        ],
+        "mood": "chill",
+        "genre": [
+          "piano",
+          "classical"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Chill Piano Reading"
+      },
+      "81-100": {
+        "bpm": [
+          53,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.3
+        ],
+        "mood": "chill",
+        "genre": [
+          "piano",
+          "classical"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Chill Piano Reading"
+      }
+    },
+    "neutral": {
+      "0-35": {
+        "bpm": [
+          55,
+          57
+        ],
+        "energy": [
+          0.27,
+          0.29
+        ],
+        "mood": "chill",
+        "genre": [
+          "ambient",
+          "acoustic"
+        ],
+        "vocal": "mixed",
+        "playlist_seed": "Chill Ambient Neutral"
+      },
+      "36-50": {
+        "bpm": [
+          58,
+          60
+        ],
+        "energy": [
+          0.3,
+          0.32
+        ],
+        "mood": "chill",
+        "genre": [
+          "ambient",
+          "acoustic"
+        ],
+        "vocal": "mixed",
+        "playlist_seed": "Chill Ambient Neutral"
+      },
+      "51-65": {
+        "bpm": [
+          60,
+          62
+        ],
+        "energy": [
+          0.32,
+          0.34
+        ],
+        "mood": "chill",
+        "genre": [
+          "ambient",
+          "acoustic"
+        ],
+        "vocal": "mixed",
+        "playlist_seed": "Chill Ambient Neutral"
+      },
+      "66-80": {
+        "bpm": [
+          70,
+          72
+        ],
+        "energy": [
+          0.42,
+          0.44
+        ],
+        "mood": "chill",
+        "genre": [
+          "ambient",
+          "acoustic"
+        ],
+        "vocal": "mixed",
+        "playlist_seed": "Chill Ambient Neutral"
+      },
+      "81-100": {
+        "bpm": [
+          55,
+          57
+        ],
+        "energy": [
+          0.27,
+          0.29
+        ],
+        "mood": "chill",
+        "genre": [
+          "ambient",
+          "acoustic"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Chill Ambient Neutral"
+      }
+    },
+    "meditate": {
+      "0-35": {
+        "bpm": [
+          55,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.32
+        ],
+        "mood": "chill",
+        "genre": [
+          "ambient drone",
+          "binaural"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Chill Ambient Drone Meditate"
+      },
+      "36-50": {
+        "bpm": [
+          55,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.32
+        ],
+        "mood": "chill",
+        "genre": [
+          "ambient drone",
+          "binaural"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Chill Ambient Drone Meditate"
+      },
+      "51-65": {
+        "bpm": [
+          55,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.32
+        ],
+        "mood": "chill",
+        "genre": [
+          "ambient drone",
+          "binaural"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Chill Ambient Drone Meditate"
+      },
+      "66-80": {
+        "bpm": [
+          55,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.32
+        ],
+        "mood": "chill",
+        "genre": [
+          "ambient drone",
+          "binaural"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Chill Ambient Drone Meditate"
+      },
+      "81-100": {
+        "bpm": [
+          55,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.32
+        ],
+        "mood": "chill",
+        "genre": [
+          "ambient drone",
+          "binaural"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Chill Ambient Drone Meditate"
+      }
+    },
+    "sleep": {
+      "0-35": {
+        "bpm": [
+          55,
+          55
+        ],
+        "energy": [
+          0.2,
+          0.22
+        ],
+        "mood": "chill",
+        "genre": [
+          "ambient",
+          "white noise"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Chill Ambient Sleep"
+      },
+      "36-50": {
+        "bpm": [
+          55,
+          55
+        ],
+        "energy": [
+          0.2,
+          0.22
+        ],
+        "mood": "chill",
+        "genre": [
+          "ambient",
+          "white noise"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Chill Ambient Sleep"
+      },
+      "51-65": {
+        "bpm": [
+          55,
+          55
+        ],
+        "energy": [
+          0.2,
+          0.22
+        ],
+        "mood": "chill",
+        "genre": [
+          "ambient",
+          "white noise"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Chill Ambient Sleep"
+      },
+      "66-80": {
+        "bpm": [
+          55,
+          55
+        ],
+        "energy": [
+          0.2,
+          0.22
+        ],
+        "mood": "chill",
+        "genre": [
+          "ambient",
+          "white noise"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Chill Ambient Sleep"
+      },
+      "81-100": {
+        "bpm": [
+          55,
+          55
+        ],
+        "energy": [
+          0.2,
+          0.22
+        ],
+        "mood": "chill",
+        "genre": [
+          "ambient",
+          "white noise"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Chill Ambient Sleep"
+      }
+    }
+  },
+  "subway": {
+    "active": {
+      "0-35": {
+        "bpm": [
+          105,
+          115
+        ],
+        "energy": [
+          0.6,
+          0.75
+        ],
+        "mood": "energetic",
+        "genre": [
+          "pop",
+          "edm"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Energetic Pop Active"
+      },
+      "36-50": {
+        "bpm": [
+          108,
+          118
+        ],
+        "energy": [
+          0.63,
+          0.78
+        ],
+        "mood": "energetic",
+        "genre": [
+          "pop",
+          "edm"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Energetic Pop Active"
+      },
+      "51-65": {
+        "bpm": [
+          110,
+          120
+        ],
+        "energy": [
+          0.65,
+          0.8
+        ],
+        "mood": "energetic",
+        "genre": [
+          "pop",
+          "edm"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Energetic Pop Active"
+      },
+      "66-80": {
+        "bpm": [
+          120,
+          130
+        ],
+        "energy": [
+          0.75,
+          0.9
+        ],
+        "mood": "energetic",
+        "genre": [
+          "pop",
+          "edm"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Energetic Pop Active"
+      },
+      "81-100": {
+        "bpm": [
+          105,
+          115
+        ],
+        "energy": [
+          0.6,
+          0.75
+        ],
+        "mood": "energetic",
+        "genre": [
+          "pop",
+          "edm"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Energetic Pop Active"
+      }
+    },
+    "focus": {
+      "0-35": {
+        "bpm": [
+          70,
+          85
+        ],
+        "energy": [
+          0.35,
+          0.5
+        ],
+        "mood": "calm",
+        "genre": [
+          "lo-fi",
+          "instrumental hiphop"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Calm Lo-Fi Focus"
+      },
+      "36-50": {
+        "bpm": [
+          73,
+          88
+        ],
+        "energy": [
+          0.38,
+          0.53
+        ],
+        "mood": "calm",
+        "genre": [
+          "lo-fi",
+          "instrumental hiphop"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Calm Lo-Fi Focus"
+      },
+      "51-65": {
+        "bpm": [
+          75,
+          90
+        ],
+        "energy": [
+          0.4,
+          0.55
+        ],
+        "mood": "calm",
+        "genre": [
+          "lo-fi",
+          "instrumental hiphop"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Calm Lo-Fi Focus"
+      },
+      "66-80": {
+        "bpm": [
+          85,
+          100
+        ],
+        "energy": [
+          0.5,
+          0.65
+        ],
+        "mood": "calm",
+        "genre": [
+          "lo-fi",
+          "instrumental hiphop"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Calm Lo-Fi Focus"
+      },
+      "81-100": {
+        "bpm": [
+          70,
+          85
+        ],
+        "energy": [
+          0.35,
+          0.5
+        ],
+        "mood": "calm",
+        "genre": [
+          "lo-fi",
+          "instrumental hiphop"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Calm Lo-Fi Focus"
+      }
+    },
+    "relax": {
+      "0-35": {
+        "bpm": [
+          55,
+          70
+        ],
+        "energy": [
+          0.25,
+          0.4
+        ],
+        "mood": "chill",
+        "genre": [
+          "jazz",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Chill Jazz Relax"
+      },
+      "36-50": {
+        "bpm": [
+          58,
+          73
+        ],
+        "energy": [
+          0.28,
+          0.43
+        ],
+        "mood": "chill",
+        "genre": [
+          "jazz",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Chill Jazz Relax"
+      },
+      "51-65": {
+        "bpm": [
+          60,
+          75
+        ],
+        "energy": [
+          0.3,
+          0.45
+        ],
+        "mood": "chill",
+        "genre": [
+          "jazz",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Chill Jazz Relax"
+      },
+      "66-80": {
+        "bpm": [
+          70,
+          85
+        ],
+        "energy": [
+          0.4,
+          0.55
+        ],
+        "mood": "chill",
+        "genre": [
+          "jazz",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Chill Jazz Relax"
+      },
+      "81-100": {
+        "bpm": [
+          55,
+          70
+        ],
+        "energy": [
+          0.25,
+          0.4
+        ],
+        "mood": "chill",
+        "genre": [
+          "jazz",
+          "acoustic"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Chill Jazz Relax"
+      }
+    },
+    "reading": {
+      "0-35": {
+        "bpm": [
+          53,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.3
+        ],
+        "mood": "soft",
+        "genre": [
+          "piano",
+          "classical"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Soft Piano Reading"
+      },
+      "36-50": {
+        "bpm": [
+          56,
+          63
+        ],
+        "energy": [
+          0.28,
+          0.33
+        ],
+        "mood": "soft",
+        "genre": [
+          "piano",
+          "classical"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Soft Piano Reading"
+      },
+      "51-65": {
+        "bpm": [
+          58,
+          65
+        ],
+        "energy": [
+          0.3,
+          0.35
+        ],
+        "mood": "soft",
+        "genre": [
+          "piano",
+          "classical"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Soft Piano Reading"
+      },
+      "66-80": {
+        "bpm": [
+          68,
+          75
+        ],
+        "energy": [
+          0.4,
+          0.45
+        ],
+        "mood": "soft",
+        "genre": [
+          "piano",
+          "classical"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Soft Piano Reading"
+      },
+      "81-100": {
+        "bpm": [
+          53,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.3
+        ],
+        "mood": "soft",
+        "genre": [
+          "piano",
+          "classical"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Soft Piano Reading"
+      }
+    },
+    "neutral": {
+      "0-35": {
+        "bpm": [
+          55,
+          57
+        ],
+        "energy": [
+          0.27,
+          0.29
+        ],
+        "mood": "neutral",
+        "genre": [
+          "ambient",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Neutral Ambient Neutral"
+      },
+      "36-50": {
+        "bpm": [
+          58,
+          60
+        ],
+        "energy": [
+          0.3,
+          0.32
+        ],
+        "mood": "neutral",
+        "genre": [
+          "ambient",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Neutral Ambient Neutral"
+      },
+      "51-65": {
+        "bpm": [
+          60,
+          62
+        ],
+        "energy": [
+          0.32,
+          0.34
+        ],
+        "mood": "neutral",
+        "genre": [
+          "ambient",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Neutral Ambient Neutral"
+      },
+      "66-80": {
+        "bpm": [
+          70,
+          72
+        ],
+        "energy": [
+          0.42,
+          0.44
+        ],
+        "mood": "neutral",
+        "genre": [
+          "ambient",
+          "acoustic"
+        ],
+        "vocal": "light-vocal",
+        "playlist_seed": "Neutral Ambient Neutral"
+      },
+      "81-100": {
+        "bpm": [
+          55,
+          57
+        ],
+        "energy": [
+          0.27,
+          0.29
+        ],
+        "mood": "neutral",
+        "genre": [
+          "ambient",
+          "acoustic"
+        ],
+        "vocal": "instrumental",
+        "playlist_seed": "Neutral Ambient Neutral"
+      }
+    },
+    "meditate": {
+      "0-35": {
+        "bpm": [
+          55,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.32
+        ],
+        "mood": "noise-masking",
+        "genre": [
+          "ambient drone",
+          "binaural"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Noise-Masking Ambient Drone Meditate"
+      },
+      "36-50": {
+        "bpm": [
+          55,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.32
+        ],
+        "mood": "noise-masking",
+        "genre": [
+          "ambient drone",
+          "binaural"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Noise-Masking Ambient Drone Meditate"
+      },
+      "51-65": {
+        "bpm": [
+          55,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.32
+        ],
+        "mood": "noise-masking",
+        "genre": [
+          "ambient drone",
+          "binaural"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Noise-Masking Ambient Drone Meditate"
+      },
+      "66-80": {
+        "bpm": [
+          55,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.32
+        ],
+        "mood": "noise-masking",
+        "genre": [
+          "ambient drone",
+          "binaural"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Noise-Masking Ambient Drone Meditate"
+      },
+      "81-100": {
+        "bpm": [
+          55,
+          60
+        ],
+        "energy": [
+          0.25,
+          0.32
+        ],
+        "mood": "noise-masking",
+        "genre": [
+          "ambient drone",
+          "binaural"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Noise-Masking Ambient Drone Meditate"
+      }
+    },
+    "sleep": {
+      "0-35": {
+        "bpm": [
+          55,
+          55
+        ],
+        "energy": [
+          0.2,
+          0.22
+        ],
+        "mood": "soothing",
+        "genre": [
+          "ambient",
+          "white noise"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Soothing Ambient Sleep"
+      },
+      "36-50": {
+        "bpm": [
+          55,
+          55
+        ],
+        "energy": [
+          0.2,
+          0.22
+        ],
+        "mood": "soothing",
+        "genre": [
+          "ambient",
+          "white noise"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Soothing Ambient Sleep"
+      },
+      "51-65": {
+        "bpm": [
+          55,
+          55
+        ],
+        "energy": [
+          0.2,
+          0.22
+        ],
+        "mood": "soothing",
+        "genre": [
+          "ambient",
+          "white noise"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Soothing Ambient Sleep"
+      },
+      "66-80": {
+        "bpm": [
+          55,
+          55
+        ],
+        "energy": [
+          0.2,
+          0.22
+        ],
+        "mood": "soothing",
+        "genre": [
+          "ambient",
+          "white noise"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Soothing Ambient Sleep"
+      },
+      "81-100": {
+        "bpm": [
+          55,
+          55
+        ],
+        "energy": [
+          0.2,
+          0.22
+        ],
+        "mood": "soothing",
+        "genre": [
+          "ambient",
+          "white noise"
+        ],
+        "vocal": "no-vocal",
+        "playlist_seed": "Soothing Ambient Sleep"
+      }
+    }
+  }
+}
