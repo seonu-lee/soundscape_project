@@ -1,3 +1,5 @@
+'''평면 JSON 변환 스크립트'''
+
 import csv
 import json
 import os

@@ -1,4 +1,4 @@
-
+'''search_query 생성 스크립트'''
 """
 Build Search Query (v2.5)
 - Input : rule_mapping_v1.csv
