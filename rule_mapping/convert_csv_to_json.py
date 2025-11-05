@@ -5,7 +5,7 @@ import json
 import os
 
 # 파일 경로 설정
-csv_file = "rule_mapping__v2.5.csv"
+csv_file = "rule_mapping_v2.5.csv"
 json_file = os.path.splitext(csv_file)[0] + ".json"
 
 # CSV → JSON 변환 함수
