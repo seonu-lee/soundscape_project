@@ -30,3 +30,6 @@ def csv_to_json(csv_path, json_path):
 # 실행
 if __name__ == "__main__":
     csv_to_json(csv_file, json_file)
+
+'''터미널 열어서 python convert_csv_to_json.py
+실행하면 파일 생성됨'''
