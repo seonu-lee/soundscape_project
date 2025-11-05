@@ -189,4 +189,3 @@ if __name__ == "__main__":
 
 '''터미널에 python convert_csv_to_nested_json.py rule_mapping_v2.5.csv
 입력하면 → rule_mapping_v2.5.nested.json 생성 '''
-
