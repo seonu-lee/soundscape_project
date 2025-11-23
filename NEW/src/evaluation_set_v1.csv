@@ -1,21 +1,21 @@
 ﻿ID,Location,Decibel,Goal,User Pref (Genre/Artist),Expected Keywords / Vibe (기대 결과),Type,난이도
-1,library,silent,focus,(None),"piano, white noise, study beats, classical",기본,하
-2,gym,loud,active,(None),"workout remix, edm, high tempo, gym motivation",기본,하
-3,home,quiet,sleep,(None),"lullaby, rain sounds, ambient, meditation",기본,하
-4,cafe,moderate,relax,Jazz,"vocal jazz, coffee shop vibe, acoustic jazz",취향반영,중
-5,park,moderate,active,K-Pop (NewJeans),"upbeat k-pop, newjeans hype boy, refreshing pop",취향반영,중
-6,co-working,quiet,focus,Lo-fi,"lo-fi beats, chillhop, no lyrics",취향반영,중
-7,moving,loud,neutral,Pop,"trendy pop, billboard hits, daily drive",취향반영,중
-8,home,silent,consolation,Ballad (IU),"emotional ballad, iu slow songs, piano ballad",취향반영,중
-9,library,silent,focus,Heavy Metal,"post-rock, instrumental rock, calm guitar (No screaming)",충돌해결,상
-10,gym,loud,active,Classical,"epic orchestral, cinematic battle music (High energy)",충돌해결,상
-11,home,quiet,sleep,Hip-hop,"lo-fi hip hop, chill beats, instrumental hip hop (No rap)",충돌해결,상
-12,co-working,quiet,focus,K-Pop (Dance),"k-pop piano cover, soft instrumental version",충돌해결,상
-13,cafe,moderate,relax,EDM,"tropical house, chill house, downtempo (Not festival big room)",충돌해결,상
-14,park,moderate,consolation,Rock,"soft rock, acoustic rock, britpop (Warm vibe)",충돌해결,상
-15,subway,very_loud,focus,Classical,"cello solo, deep organ (Noise masking, steady rhythm)",소음대응,상
-16,home,moderate,anger,Rock,"grunge, punk rock, hard rock, aggressive energy",감정분석,중
-17,home,moderate,anger,Classical,"dramatic classical, wagner, stravinsky",감정분석,상
-18,moving,loud,active,Hip-hop,"boom bap, rhythmic rap, running beats",감정분석,중
-19,cafe,moderate,neutral,Indie,"indie pop, acoustic indie, calm afternoon",일반,하
+1,library,silent,focus,None,"piano, white noise, study beats, classical, calm",기본,하
+2,gym,loud,active,None,"workout remix, edm, high tempo, gym motivation, energetic",기본,하
+3,home,quiet,sleep,None,"lullaby, rain sounds, ambient, meditation, deep sleep",기본,하
+4,cafe,moderate,relax,Jazz,"vocal jazz, coffee shop vibe, acoustic jazz, saxophone",취향반영,중
+5,park,moderate,active,K-Pop (NewJeans),"upbeat k-pop, newjeans hype boy, refreshing pop, bright energy",취향반영,중
+6,co-working,quiet,focus,Lo-fi,"lo-fi beats, chillhop, no lyrics, productive vibe",취향반영,중
+7,moving,loud,neutral,Pop,"trendy pop, billboard hits, daily drive, rhythmic",취향반영,중
+8,home,silent,consolation,Ballad (IU),"emotional ballad, iu slow songs, piano ballad, sad touching",취향반영,중
+9,library,silent,focus,Heavy Metal,"post-rock, instrumental rock, calm guitar, ambient metal (No screaming)",충돌해결,상
+10,gym,loud,active,Classical,"epic orchestral, cinematic battle music, fast tempo classical (High energy)",충돌해결,상
+11,home,quiet,sleep,Hip-hop,"lo-fi hip hop, chill beats, instrumental hip hop, slow jam (No rap)",충돌해결,상
+12,co-working,quiet,focus,K-Pop (Dance),"k-pop piano cover, soft instrumental version, acoustic k-pop",충돌해결,상
+13,cafe,moderate,relax,EDM,"tropical house, chill house, downtempo, lounge music (Not festival big room)",충돌해결,상
+14,park,moderate,consolation,Rock,"soft rock, acoustic rock, britpop, warm vibe, modern rock ballad",충돌해결,상
+15,subway,very_loud,focus,Classical,"cello solo, deep organ, steady rhythm (Noise masking strategy)",소음대응,상
+16,home,moderate,anger,Rock,"grunge, punk rock, hard rock, aggressive energy, stress relief",감정분석,중
+17,home,moderate,anger,Classical,"dramatic classical, wagner, stravinsky, intense orchestral",감정분석,상
+18,moving,loud,active,Hip-hop,"boom bap, rhythmic rap, running beats, energetic hip-hop",감정분석,중
+19,cafe,moderate,neutral,Indie,"indie pop, acoustic indie, calm afternoon, easy listening",일반,하
 20,library,silent,focus,Podcast (Talk),"instrumental bgm, minimal ambient (Ignore talk preference)",충돌해결,상
