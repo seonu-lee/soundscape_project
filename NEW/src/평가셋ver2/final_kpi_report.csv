@@ -1,0 +1,42 @@
+﻿ID,Context,Output_Snippet,KPI_Math,KPI_Logic,KPI_Success,Final_Score
+1,Library-Focus,"[
+  {
+    ""recommendation_meta"": {
+      ""reasonin...",30.1,80,1,65.0
+2,Gym-Active,"[  {    ""recommendation_meta"": {      ""reasoning"":...",46.2,90,1,76.9
+3,Home-Sleep,"[  {    ""recommendation_meta"": {      ""reasoning"":...",41.6,80,1,68.5
+4,Cafe-Relax,"[  {    ""recommendation_meta"": {      ""reasoning"":...",51.4,85,1,74.9
+5,Park-Active,"[  {    ""recommendation_meta"": {      ""reasoning"":...",59.3,90,1,80.8
+6,Co-working-Focus,"[
+  {
+    ""recommendation_meta"": {
+      ""reasonin...",48.4,70,1,63.5
+7,Moving (Car)-Neutral,"[
+  {
+    ""recommendation_meta"": {
+      ""reasonin...",29.7,85,1,68.4
+8,Home-Consolation,"[
+  {
+    ""recommendation_meta"": {
+      ""reasonin...",46.2,80,1,69.9
+9,Library-Focus,"[  {    ""recommendation_meta"": {      ""reasoning"":...",42.1,80,1,68.6
+10,Gym-Active,"[  {    ""recommendation_meta"": {      ""reasoning"":...",44.8,60,1,55.4
+11,Home-Sleep,"[  {    ""recommendation_meta"": {      ""reasoning"":...",34.4,85,1,69.8
+12,Co-working-Focus,"[{""recommendation_meta"":{""reasoning"":""도서관(Library)...",29.5,50,1,43.9
+13,Cafe-Relax,"[
+  {
+    ""recommendation_meta"": {
+      ""reasonin...",47.8,85,1,73.8
+14,Park-Consolation,"[  {    ""recommendation_meta"": {      ""reasoning"":...",37.1,70,1,60.1
+15,Subway-Focus,"[
+  {
+    ""recommendation_meta"": {
+      ""reasonin...",33.3,70,1,59.0
+16,Home-Anger (Vent),"[  {    ""recommendation_meta"": {      ""reasoning"":...",38.4,85,1,71.0
+17,Home-Anger (Calm),"[  {    ""recommendation_meta"": {      ""reasoning"":...",38.7,85,1,71.1
+18,Moving-Active,"[  {    ""recommendation_meta"": {      ""reasoning"":...",36.2,80,1,66.9
+19,Cafe-Neutral,"[
+  {
+    ""recommendation_meta"": {
+      ""reasonin...",32.3,70,1,58.7
+20,Library-Focus,"[  {    ""recommendation_meta"": {      ""reasoning"":...",31.6,80,1,65.5
