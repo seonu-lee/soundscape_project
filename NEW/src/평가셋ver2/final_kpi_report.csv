@@ -1,42 +1,34 @@
-﻿ID,Context,Output_Snippet,KPI_Math,KPI_Logic,KPI_Success,Final_Score
-1,Library-Focus,"[
+﻿ID,Context,Success,Accuracy_Math,Accuracy_Logic,Consistency,Final_Accuracy,Raw_Output
+1,Library-Focus,1,29.9,85,1.0,57.5,"[
   {
     ""recommendation_meta"": {
-      ""reasonin...",30.1,80,1,65.0
-2,Gym-Active,"[  {    ""recommendation_meta"": {      ""reasoning"":...",46.2,90,1,76.9
-3,Home-Sleep,"[  {    ""recommendation_meta"": {      ""reasoning"":...",41.6,80,1,68.5
-4,Cafe-Relax,"[  {    ""recommendation_meta"": {      ""reasoning"":...",51.4,85,1,74.9
-5,Park-Active,"[  {    ""recommendation_meta"": {      ""reasoning"":...",59.3,90,1,80.8
-6,Co-working-Focus,"[
+      ""reasoning"": ""도서관(Library) 환경이므로 사용자가 선호하는 락 장르 중 가사가 없고 차분..."
+2,Gym-Active,1,55.5,90,1.0,72.8,"[  {    ""recommendation_meta"": {      ""reasoning"": ""체육관(Gym) 환경에 적합한 고에너지 음악을 추천합니다. 사용자의 목표가 '활동적'이..."
+3,Home-Sleep,1,30.3,60,1.0,45.2,"[
   {
     ""recommendation_meta"": {
-      ""reasonin...",48.4,70,1,63.5
-7,Moving (Car)-Neutral,"[
+      ""reasoning"": ""사용자가 수면을 목표로 하고 있으므로, 차분하고 변화가 적은 연주곡을 추천했습니다..."
+4,Cafe-Relax,1,43.8,90,1.0,66.9,"[
   {
     ""recommendation_meta"": {
-      ""reasonin...",29.7,85,1,68.4
-8,Home-Consolation,"[
+      ""reasoning"": ""카페 환경에서 사용자가 선호하는 재즈 장르의 차분한 곡을 선정했습니다."", 
+  ..."
+5,Park-Active,1,55.0,85,1.0,70.0,"[  {    ""recommendation_meta"": {      ""reasoning"": ""사용자가 선호하는 K-Pop 장르에 맞춰, 활동적인 환경인 공원에서 듣기 좋은 빠른 비..."
+6,Co-working-Focus,1,36.8,65,1.0,50.9,"[  {    ""recommendation_meta"": {      ""reasoning"": ""도서관(Library) 환경이므로 사용자가 선호하는 락 장르 중 가사가 없고 차분한 포..."
+7,Moving (Car)-Neutral,1,34.0,90,1.0,62.0,"[  {    ""recommendation_meta"": {      ""reasoning"": ""차에서 듣기 좋은 경쾌한 팝 히트곡을 추천합니다."",      ""primary_tag""..."
+8,Home-Consolation,1,46.6,85,1.0,65.8,"[  {    ""recommendation_meta"": {      ""reasoning"": ""사용자의 위치가 '집'이므로 편안하고 개인적인 환경에서 듣기 좋은 발라드를 추천했습니다..."
+9,Library-Focus,1,28.6,85,1.0,56.8,"[  {    ""recommendation_meta"": {      ""reasoning"": ""도서관(Library) 환경이므로 사용자가 선호하는 락 장르 중 가사가 없고 차분한 포..."
+10,Gym-Active,1,44.4,75,1.0,59.7,"[  {    ""recommendation_meta"": {      ""reasoning"": ""체육관(Gym) 환경에 적합한 고에너지 클래식 곡을 선정했습니다."",      ""pri..."
+11,Home-Sleep,1,31.4,85,1.0,58.2,"[
   {
     ""recommendation_meta"": {
-      ""reasonin...",46.2,80,1,69.9
-9,Library-Focus,"[  {    ""recommendation_meta"": {      ""reasoning"":...",42.1,80,1,68.6
-10,Gym-Active,"[  {    ""recommendation_meta"": {      ""reasoning"":...",44.8,60,1,55.4
-11,Home-Sleep,"[  {    ""recommendation_meta"": {      ""reasoning"":...",34.4,85,1,69.8
-12,Co-working-Focus,"[{""recommendation_meta"":{""reasoning"":""도서관(Library)...",29.5,50,1,43.9
-13,Cafe-Relax,"[
-  {
-    ""recommendation_meta"": {
-      ""reasonin...",47.8,85,1,73.8
-14,Park-Consolation,"[  {    ""recommendation_meta"": {      ""reasoning"":...",37.1,70,1,60.1
-15,Subway-Focus,"[
-  {
-    ""recommendation_meta"": {
-      ""reasonin...",33.3,70,1,59.0
-16,Home-Anger (Vent),"[  {    ""recommendation_meta"": {      ""reasoning"":...",38.4,85,1,71.0
-17,Home-Anger (Calm),"[  {    ""recommendation_meta"": {      ""reasoning"":...",38.7,85,1,71.1
-18,Moving-Active,"[  {    ""recommendation_meta"": {      ""reasoning"":...",36.2,80,1,66.9
-19,Cafe-Neutral,"[
-  {
-    ""recommendation_meta"": {
-      ""reasonin...",32.3,70,1,58.7
-20,Library-Focus,"[  {    ""recommendation_meta"": {      ""reasoning"":...",31.6,80,1,65.5
+      ""reasoning"": ""집에서 수면을 목표로 하므로, 사용자가 선호하는 힙합 장르 중 차분한 비트의 곡을..."
+12,Co-working-Focus,1,36.9,70,1.0,53.4,"[  {    ""recommendation_meta"": {      ""reasoning"": ""도서관(Library) 환경이므로 사용자가 선호하는 K-Pop 장르 중 가사가 없고 차..."
+13,Cafe-Relax,1,39.2,85,1.0,62.1,"[  {    ""recommendation_meta"": {      ""reasoning"": ""카페 환경에서 사용자가 선호하는 EDM 장르의 차분한 곡을 선정했습니다."",      ..."
+14,Park-Consolation,1,37.3,85,1.0,61.2,"[  {    ""recommendation_meta"": {      ""reasoning"": ""공원(Park) 환경에 적합한 차분한 록 음악을 추천합니다. 사용자의 위로(Consol..."
+15,Subway-Focus,1,37.2,65,1.0,51.1,"[  {    ""recommendation_meta"": {      ""reasoning"": ""지하철(Subway) 환경이므로 사용자가 선호하는 클래식 장르 중 소음에 덮일 수 있는..."
+16,Home-Anger (Vent),1,28.0,85,1.0,56.5,"[  {    ""recommendation_meta"": {      ""reasoning"": ""사용자가 집에서 스트레스를 해소하기 위해 락 장르의 강렬한 곡을 추천합니다."",    ..."
+17,Home-Anger (Calm),1,37.8,85,1.0,61.4,"[  {    ""recommendation_meta"": {      ""reasoning"": ""집에서의 차분한 환경을 고려하여 사용자가 선호하는 클래식 장르 중에서 진정 효과가 있는..."
+18,Moving-Active,1,29.5,65,1.0,47.2,"[  {    ""recommendation_meta"": {      ""reasoning"": ""사용자가 이동 중이며 힙합 장르를 선호하므로, 에너지가 높고 리듬감이 확실한 곡을 추천..."
+19,Cafe-Neutral,1,32.2,85,1.0,58.6,"[  {    ""recommendation_meta"": {      ""reasoning"": ""카페 환경에서 사용자의 선호 장르인 인디에 맞춰 차분하고 가사가 없는 곡을 선정했습니다..."
+20,Library-Focus,1,19.4,70,1.0,44.7,"[  {    ""recommendation_meta"": {      ""reasoning"": ""도서관(Library) 환경이므로 사용자가 선호하는 락 장르 중 가사가 없고 차분한 포..."
