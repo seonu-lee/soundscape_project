@@ -88,7 +88,11 @@ class Act(BaseModel):
 planner_prompt = ChatPromptTemplate.from_messages([
     ("system",
      """당신은 음악 추천을 위한 검색 계획가입니다.
-     사용자의 Context와 Preference를 분석하여 Tavily로 검색할 단계별 계획을 세우세요.
+    사용자의 Context와 Preference를 분석하여 Tavily로 검색할 단계별 계획을 세우세요.
+
+    [중요] 검색 쿼리를 생성할 때, 반드시 'Context'와 'Genre'를 조합하세요.
+    - Bad Plan: "Search for Metallica songs" (단순 검색)
+    - Good Plan: "Search for **acoustic or instrumental cover songs** by Metallica suitable for **focusing in a library**" (상황 결합 검색)
      
      [Taxonomy 참고]
      - Location: cafe, library, co-working, moving, gym, home, park
@@ -139,14 +143,46 @@ JSON의 `target_audio_features` 값을 채울 때 아래 범위를 참고하세�
 5. **최신 트렌드**: 가능하다면 사용자 요청 날짜 기준 최근 1년 내 발매곡을 1곡 이상 포함하세요.
 6. **포맷 엄수**: Markdown Block(```json)을 사용하지 마세요. 오직 **Raw JSON String**만 출력하세요.
 
-### 4. 출력 포맷 (JSON Schema)
+### 4. Primary Tag 생성 규칙 (Advanced)
+데이터 분석 및 통계를 위해 'primary_tag'는 반드시 아래의 3단 구조와 허용된 단어만 사용해야 합니다.
+
+   - **Format**: `"{Goal}_{Genre}_{Vibe}"` (Snake_case, 소문자)
+   
+   - **(1) Prefix (Goal)**: 사용자 입력의 `goal`을 그대로 사용.
+     - (e.g., focus, sleep, active, anger, consolation...)
+   
+   - **(2) Middle (Genre)**: 반드시 아래 **[Allowed Genre List]** 중 하나를 선택.
+     - **[Allowed Genre List]**: 
+       [pop, k-pop, rock, hip-hop, r-nb, jazz, indie, folk, electronic, classical, ballad, acoustic, soundtrack, ambient, lo-fi, new-age, piano]
+   
+   - **(3) Suffix (Vibe)**: 곡의 분위기를 가장 잘 나타내는 단어 1개를 선택.
+     - **[Allowed Vibe List]**:
+       - `calm` (차분함, 잔잔함)
+       - `groovy` (리듬감 있음, 힙함)
+       - `intense` (강렬함, 빠름, 시끄러움)
+       - `dreamy` (몽환적임, 공간감)
+       - `uplifting` (기분 좋음, 밝음)
+       - `melancholy` (우울함, 서정적, 슬픔)
+
+   - ** Correct Examples**:
+     - `focus_piano_calm` (도서관 집중)
+     - `active_k-pop_uplifting` (신나는 운동)
+     - `sleep_ambient_dreamy` (수면)
+     - `anger_rock_intense` (분노 표출)
+   
+   - ** Wrong Examples**:
+     - `study_beats` (Goal이 틀림, Vibe 없음)
+     - `relax_chill` (Genre가 리스트에 없음)
+     - `focus_piano` (3단 구조 아님 - Vibe 누락)
+
+### 5. 출력 포맷 (JSON Schema)
 반드시 아래의 **JSON 리스트** 형식이어야 합니다.
 
 [
   {
     "recommendation_meta": {
-      "reasoning": "도서관(Library) 환경이므로 사용자가 선호하는 락 장르 중 가사가 없고 차분한 포스트 락을 선정했습니다.", 
-      "primary_tag": "focus_instrumental" 
+      "reasoning": "Must explicitly mention the User Context (Location/Goal) and why this track fits. (e.g., 'Since the user is in a library (Context) and wants to focus, I selected an acoustic version of this rock song to match the silent decibel requirement.')", 
+      "primary_tag": "..." 
     },
     "track_info": {
       "artist_name": "Artist Name",
@@ -163,7 +199,7 @@ JSON의 `target_audio_features` 값을 채울 때 아래 범위를 참고하세�
   }
 ]
 
-### 5. 입력 정보
+### 6. 입력 정보
 - Context: {user_context}
 - Preference: {user_preference}
 """
