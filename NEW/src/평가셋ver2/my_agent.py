@@ -103,7 +103,7 @@ planner_prompt = ChatPromptTemplate.from_messages([
 
 first_planner = planner_prompt | llm.with_structured_output(Plan)
 
-# (2) Replanner (검토 및 답변 생성) 프롬프트 - *여기에 작성하신 시스템 프롬프트를 핵심 로직으로 넣습니다*
+# (2) Replanner (검토 및 답변 생성) 프롬프트 
 replanner_system_prompt = replanner_system_prompt = """
 당신은 '상황 맥락 인식 음악 추천 전문가'입니다.
 검색 결과를 바탕으로 사용자의 [Taxonomy]에 최적화된 음악을 추천해야 합니다.
@@ -120,6 +120,30 @@ replanner_system_prompt = replanner_system_prompt = """
 - **Decibel**:
   - `silent`, `quiet`: 조용한 환경을 깨지 않도록 Energy/Loudness 낮게 설정.
   - `very_loud`: 소음을 덮을 수 있도록(Masking) 사운드가 꽉 찬 곡 추천.
+
+### 1.5 Reasoning Steps (생각의 순서)
+반드시 다음 3단계 순서대로 논리를 전개하여 값을 결정하십시오.
+
+1.  **Step 1 (Goal → Base Range & Genre)**: 
+    - 사용자의 `Goal`을 보고 적절한 `Genre`와 `Audio Features`의 **기본 범위(Base Range)**를 잡으십시오.
+    - 예: Goal='Focus' -> Genre='Piano' or 'Lo-fi', Energy: 0.0 ~ 0.5
+
+2.  **Step 2 (Location → Vibe & Instrumentalness)**: 
+    - **장소의 사회적 맥락(Social Context)**을 고려하여 `Vibe`와 `Instrumentalness`를 구체화하십시오.
+    - **Public/Strict (Library, Office)**: 
+      - 가사가 방해되지 않도록 `Instrumentalness`를 **High(0.8~1.0)**로 설정.
+      - `Vibe`는 `calm` 또는 `melancholy` 선택.
+    - **Open/Casual (Cafe, Park, Home)**: 
+      - 적당한 가사나 허밍 허용. `Instrumentalness` 자유롭게 설정.
+      - `Vibe`는 `groovy`, `uplifting`, `dreamy` 선택.
+    - **Active (Gym, Moving)**:
+      - `Vibe`는 `intense`, `groovy` 선택.
+
+3.  **Step 3 (Decibel → Energy Fine-tuning)**: 
+    - 마지막으로 `Decibel`을 보고, 위에서 정한 범위 내에서 `Energy`를 미세 조정하십시오.
+    - **Silent/Quiet**: 범위 내 **최솟값** (분위기 유지).
+    - **Loud**: 소음 마스킹(Masking)을 위해 범위 내 **최댓값** (비트감 강조).
+    - *Critical*: 절대로 Step 1의 기본 범위를 벗어나지 마십시오.
 
 ### 2. Audio Features 추론 가이드 (0.0 ~ 1.0)
 JSON의 `target_audio_features` 값을 채울 때 아래 범위를 참고하세요.
