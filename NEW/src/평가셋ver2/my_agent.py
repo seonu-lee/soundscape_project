@@ -121,12 +121,23 @@ replanner_system_prompt = replanner_system_prompt = """
   - `silent`, `quiet`: 조용한 환경을 깨지 않도록 Energy/Loudness 낮게 설정.
   - `very_loud`: 소음을 덮을 수 있도록(Masking) 사운드가 꽉 찬 곡 추천.
 
-### 1.5 Reasoning Steps (생각의 순서)
+### 2. Reasoning Steps (생각의 순서)
 반드시 다음 3단계 순서대로 논리를 전개하여 값을 결정하십시오.
 
-1.  **Step 1 (Goal → Base Range & Genre)**: 
-    - 사용자의 `Goal`을 보고 적절한 `Genre`와 `Audio Features`의 **기본 범위(Base Range)**를 잡으십시오.
-    - 예: Goal='Focus' -> Genre='Piano' or 'Lo-fi', Energy: 0.0 ~ 0.5
+1.  **Step 1 (Goal → Base Range)**: 
+    - 사용자의 `Goal`을 보고 적절한 `Genre`와 `target_audio_features`의 **기본 범위(Base Range)**를 잡으십시오.
+    - JSON의 `target_audio_features` 값을 채울 때 아래 범위를 참고하세요.
+     - **Focus/Sleep**:
+      - Energy: 0.0 ~ 0.4 (낮음)
+      - Tempo: 60 ~ 90 BPM (느림)
+      - Instrumentalness: 0.7 ~ 1.0 (가사 거의 없음)
+     - **Active/Anger(Vent)**:
+      - Energy: 0.7 ~ 1.0 (높음)
+      - Tempo: 120+ BPM (빠름)
+      - Valence: 0.6+ (긍정적/강렬함)
+     - **Relax/Consolation**:
+      - Acousticness: 0.6 ~ 1.0 (자연 악기)
+      - Valence: 0.3 ~ 0.6 (차분함)
 
 2.  **Step 2 (Location → Vibe & Instrumentalness)**: 
     - **장소의 사회적 맥락(Social Context)**을 고려하여 `Vibe`와 `Instrumentalness`를 구체화하십시오.
@@ -140,24 +151,10 @@ replanner_system_prompt = replanner_system_prompt = """
       - `Vibe`는 `intense`, `groovy` 선택.
 
 3.  **Step 3 (Decibel → Energy Fine-tuning)**: 
-    - 마지막으로 `Decibel`을 보고, 위에서 정한 범위 내에서 `Energy`를 미세 조정하십시오.
+    - 마지막으로 `Decibel`을 보고, 위에서 정한 범위 내에서 `target_audio_features`를 미세 조정하십시오.
     - **Silent/Quiet**: 범위 내 **최솟값** (분위기 유지).
     - **Loud**: 소음 마스킹(Masking)을 위해 범위 내 **최댓값** (비트감 강조).
     - *Critical*: 절대로 Step 1의 기본 범위를 벗어나지 마십시오.
-
-### 2. Audio Features 추론 가이드 (0.0 ~ 1.0)
-JSON의 `target_audio_features` 값을 채울 때 아래 범위를 참고하세요.
-- **Focus/Sleep**:
-  - Energy: 0.0 ~ 0.4 (낮음)
-  - Tempo: 60 ~ 90 BPM (느림)
-  - Instrumentalness: 0.7 ~ 1.0 (가사 거의 없음)
-- **Active/Anger(Vent)**:
-  - Energy: 0.7 ~ 1.0 (높음)
-  - Tempo: 120+ BPM (빠름)
-  - Valence: 0.6+ (긍정적/강렬함)
-- **Relax/Consolation**:
-  - Acousticness: 0.6 ~ 1.0 (자연 악기)
-  - Valence: 0.3 ~ 0.6 (차분함)
 
 ### 3. 절대적 규칙 (CRITICAL RULES)
 1. **취향 기반 필터링(Priority)**: 무작위 추천을 하지 마십시오. 반드시 `{user_preference}`에 있는 선호 장르/아티스트와 유사한 스타일 내에서, 현재 Context에 적합한 곡을 찾으세요.
