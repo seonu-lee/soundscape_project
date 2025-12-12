@@ -30,6 +30,11 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+# 외부 라이브러리 콘솔 제거 (TMI 제거) ▼
+logging.getLogger("httpx").setLevel(logging.WARNING)
+logging.getLogger("openai").setLevel(logging.WARNING)
+logging.getLogger("httpcore").setLevel(logging.WARNING)
+
 # 클라이언트 초기화
 aclient = AsyncOpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
@@ -80,6 +85,15 @@ class MusicRecommendationEvaluator:
         except:
             return "Error"
 
+    # [NEW] Primary Tag 추출 헬퍼 함수
+    def _extract_primary_tag(self, parsed_data):
+        try:
+            if isinstance(parsed_data, list) and len(parsed_data) > 0:
+                return parsed_data[0].get('recommendation_meta', {}).get('primary_tag', 'unknown')
+            return "Parsing Failed"
+        except:
+            return "Error"
+
     # ======================================================================
     # KPI 1. 정확성 (Accuracy)
     # ======================================================================
@@ -102,7 +116,6 @@ class MusicRecommendationEvaluator:
             sim = cosine_similarity([vec1], [vec2])[0][0]
             score_math = max(0, sim * 100)
             
-            # [디버깅] 점수가 낮으면 이유 확인용 로그
             if score_math < 40:
                 logger.debug(f"[Low Math] Criteria: {criteria[:30]}... vs Reasoning: {reasoning_text[:30]}...")
         except Exception:
@@ -173,30 +186,21 @@ class MusicRecommendationEvaluator:
             res_loose = self.sp.search(q=q_loose, type='track', limit=1)
             if len(res_loose['tracks']['items']) > 0: return 1
             
-    
             return 0 
         except:
             return 0
 
-# ======================================================================
+    # ======================================================================
     # KPI 4. 일관성 (Consistency) - [태그 내용 비교]
-# ======================================================================
+    # ======================================================================
     async def evaluate_consistency(self, inputs, first_parsed_data):
-        """
-        동일 입력에 대해 Agent가 얼마나 유사한 'Primary Tag'를 내놓는지 평가 (3회)
-        - 1회: 이미 실행한 결과(first_parsed_data) 사용
-        - 2,3회: 추가 실행하여 비교
-        """
         tags = []
-        
-        # 1. 첫 번째 실행 결과에서 태그 추출
         if first_parsed_data:
             tag1 = first_parsed_data[0].get('recommendation_meta', {}).get('primary_tag', 'error')
             tags.append(tag1)
         else:
             tags.append("error_1")
 
-        # 2. 두 번 더 실행 (비동기 병렬 처리)
         try:
             tasks = [run_agent_bridge(inputs) for _ in range(2)]
             results = await asyncio.gather(*tasks)
@@ -213,28 +217,21 @@ class MusicRecommendationEvaluator:
             logger.error(f"Consistency Check Error: {e}")
             return 0.0
 
-        # 3. 빈도 분석 (가장 많이 나온 태그가 전체의 몇 %인가?)
-        # 예: ['A', 'A', 'B'] -> 'A'가 2번 -> 2/3 = 0.66
-        # 예: ['A', 'B', 'C'] -> 'A'가 1번 -> 1/3 = 0.33
-        
         if not tags: return 0.0
         
         from collections import Counter
         counts = Counter(tags)
-        most_common_count = counts.most_common(1)[0][1] # 가장 많이 나온 횟수
+        most_common_count = counts.most_common(1)[0][1] 
+        score = most_common_count / len(tags)
         
-        score = most_common_count / len(tags) # (최빈값 / 전체 시도 횟수)
-        
-        # [디버깅 로그] 태그가 어떻게 나왔는지 확인
         if score < 1.0:
             logger.info(f"ℹ️ Consistency Diff: {tags}")
             
         return score
     
-# ======================================================================
-    # KPI 5. 다양성 (diversity) 
-# ======================================================================
-
+    # ======================================================================
+    # KPI 5. 다양성 (Diversity) 
+    # ======================================================================
     def record_diversity(self, parsed_data):
         if parsed_data:
             t = parsed_data[0].get('track_info', {}).get('track_title', 'unknown')
@@ -281,17 +278,16 @@ async def main():
         s_stability = evaluator.evaluate_system_stability(parsed)
         s_search = evaluator.evaluate_search_success(parsed)
         
-        s_consist = 1.0 #기본값
+        s_consist = 1.0 # 기본값
         if idx % 5 == 0: 
-            # 첫 번째 결과(parsed)를 포함해서 비교하도록 수정
             s_consist = await evaluator.evaluate_consistency(inputs, parsed)
         evaluator.record_diversity(parsed)
 
-        # 3. 할루시네이션 및 트랙 정보
+        # 3. 할루시네이션 및 트랙 정보 추출
         track_info_str = evaluator._extract_track_info_str(parsed)
+        primary_tag_str = evaluator._extract_primary_tag(parsed)  # 👈 Tag 추출
         hallucinated_track = ""
         
-        # 검색 실패 시 빨간색 강조 출력 (ANSI Code)
         RED = "\033[91m"
         RESET = "\033[0m"
         
@@ -299,16 +295,17 @@ async def main():
             hallucinated_track = track_info_str
             print(f"{RED}❌ Hallucination: {hallucinated_track}{RESET}", end=" ")
         
-        # 결과 저장
+        # 결과 리스트에 추가
         results.append({
             "ID": row.get('ID', idx),
             "Context": f"{row['Location']}-{row['Goal']}",
             "Score_Total_Accuracy": round(final_acc, 1),
-            "Score_Accuracy_Logic": s_logic,          # 👈 요청하신 Logic 점수 칼럼
-            "Score_Accuracy_Math": round(s_math, 1),  # 👈 요청하신 Math 점수 칼럼
+            "Score_Accuracy_Logic": s_logic,          
+            "Score_Accuracy_Math": round(s_math, 1),  
             "Score_Stability": s_stability,             
-            "Score_SearchSuccess": s_search,          # 개별 성공 여부 (0 or 1)
+            "Score_SearchSuccess": s_search,          
             "Score_Consistency": s_consist,
+            "Primary_Tag": primary_tag_str,           # 👈 컬럼 추가됨!
             "Hallucination_Track": hallucinated_track, 
             "Output_Reasoning": evaluator._extract_text_for_embedding(parsed),
             "Recommended_Track": track_info_str
@@ -317,33 +314,62 @@ async def main():
         if not hallucinated_track:
             print(f"✅ Acc:{final_acc:.0f}")
 
-    # 4. 최종 집계 및 전체 성공률 계산
+    # 4. 최종 리포트 데이터프레임 생성
     res_df = pd.DataFrame(results)
     
-    # 다양성 계산
+    # 다양성 및 전체 성공률 계산
     diversity = evaluator.calculate_diversity()
     res_df['Score_Diversity'] = round(diversity, 1)
-
-    # ★ [요청하신 기능] 전체 검색 성공률 비율 칼럼 추가 (모든 행에 동일한 값 저장)
-    # (성공한 횟수 / 전체 횟수) * 100
+    
     overall_search_rate = res_df['Score_SearchSuccess'].mean() * 100
-    res_df['Overall_Search_Success_Rate'] = f"{overall_search_rate:.1f}%" # 👈 한눈에 보는 성공률
+    res_df['Overall_Search_Success_Rate'] = f"{overall_search_rate:.1f}%"
 
-    # 콘솔 리포트
+    # 5. 콘솔 출력 및 요약 CSV 저장
     print("\n" + "="*40)
     print("🏆  FINAL 5-KPI REPORT  🏆")
     print("="*40)
-    print(f"1. 정확성 (Accuracy)       : {res_df['Score_Total_Accuracy'].mean():.1f}점")
-    print(f"   - Logic Avg             : {res_df['Score_Accuracy_Logic'].mean():.1f}점")
-    print(f"   - Math Avg              : {res_df['Score_Accuracy_Math'].mean():.1f}점")
-    print(f"2. 안정성 (Stability)      : {res_df['Score_Stability'].mean()*100:.1f}%")
-    print(f"3. 검색 성공률 (Success)    : {overall_search_rate:.1f}% (Total Ratio)") # 콘솔에도 표시
-    print(f"4. 일관성 (Consistency)    : {res_df['Score_Consistency'].mean():.2f}")
+    
+    # 평균값 계산
+    avg_accuracy = res_df['Score_Total_Accuracy'].mean()
+    avg_logic = res_df['Score_Accuracy_Logic'].mean()
+    avg_math = res_df['Score_Accuracy_Math'].mean()
+    avg_stability = res_df['Score_Stability'].mean() * 100
+    avg_consistency = res_df['Score_Consistency'].mean()
+    
+    print(f"1. 정확성 (Accuracy)       : {avg_accuracy:.1f}점")
+    print(f"   - Logic Avg             : {avg_logic:.1f}점")
+    print(f"   - Math Avg              : {avg_math:.1f}점")
+    print(f"2. 안정성 (Stability)      : {avg_stability:.1f}%")
+    print(f"3. 검색 성공률 (Success)    : {overall_search_rate:.1f}% (Total Ratio)")
+    print(f"4. 일관성 (Consistency)    : {avg_consistency:.2f}")
     print(f"5. 다양성 (Diversity)      : {diversity:.1f}%")
 
-    output_path = os.path.join(current_dir, "final_kpi_report.csv")
-    res_df.to_csv(output_path, index=False, encoding="utf-8-sig")
-    print(f"\n✅ 리포트 저장 완료: {output_path}")
+    # (1) 상세 리포트 저장
+    detail_path = os.path.join(current_dir, "final_kpi_report.csv")
+    res_df.to_csv(detail_path, index=False, encoding="utf-8-sig")
+    print(f"\n✅ 상세 리포트 저장 완료: {detail_path}")
+    
+    # (2) 요약 리포트 저장 (요청하신 기능)
+    summary_data = [{
+        "KPI_Name": "Accuracy (Total)", "Score": f"{avg_accuracy:.1f}"
+    }, {
+        "KPI_Name": "Accuracy (Logic)", "Score": f"{avg_logic:.1f}"
+    }, {
+        "KPI_Name": "Accuracy (Math)", "Score": f"{avg_math:.1f}"
+    }, {
+        "KPI_Name": "Stability", "Score": f"{avg_stability:.1f}%"
+    }, {
+        "KPI_Name": "Search Success Rate", "Score": f"{overall_search_rate:.1f}%"
+    }, {
+        "KPI_Name": "Consistency", "Score": f"{avg_consistency:.2f}"
+    }, {
+        "KPI_Name": "Diversity", "Score": f"{diversity:.1f}%"
+    }]
+    
+    summary_df = pd.DataFrame(summary_data)
+    summary_path = os.path.join(current_dir, "summary_report.csv")
+    summary_df.to_csv(summary_path, index=False, encoding="utf-8-sig")
+    print(f"✅ 요약 리포트 저장 완료: {summary_path}")
 
 if __name__ == "__main__":
     asyncio.run(main())
