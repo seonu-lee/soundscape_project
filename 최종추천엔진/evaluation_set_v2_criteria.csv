@@ -1,0 +1,21 @@
+﻿ID,Type,Difficulty,Location,Decibel,Goal,User Pref,Evaluation Criteria
+1,기본,Low,Library,Silent,Focus,None,"MUST: Instrumental, White noise, or Classical. BAN: Lyrics, High BPM."
+2,기본,Low,Gym,Loud,Active,None,"MUST: High Energy, EDM, or Upbeat Pop. VIBE: Workout motivation."
+3,기본,Low,Home,Quiet,Sleep,None,"MUST: Ambient, Rain sounds, or Lullaby. BAN: Sudden loud noises, Drums."
+4,취향반영,Mid,Cafe,Moderate,Relax,Jazz,"Genre: Jazz. VIBE: Cozy, Cafe atmosphere, Soft Saxophone/Piano."
+5,취향반영,Mid,Park,Moderate,Active,K-Pop (NewJeans),"Artist: NewJeans or similar refreshing K-Pop. VIBE: Bright, Driving, Upbeat."
+6,취향반영,Mid,Co-working,Quiet,Focus,Lo-fi,Genre: Lo-fi/Chillhop. CONDITION: No distracting lyrics (Background friendly).
+7,취향반영,Mid,Moving (Car),Loud,Neutral,Pop Hits,"Genre: Pop. VIBE: Rhythmic, Sing-along, Driving friendly."
+8,취향반영,Mid,Home,Silent,Consolation,Ballad (IU),"Artist: IU or Emotional Ballad. VIBE: Sad, Touching, Slow tempo."
+9,충돌해결,High,Library,Silent,Focus,Heavy Metal,"STRATEGY: Keep genre vibe but remove noise. ACCEPT: Post-rock, Instrumental Metal. BAN: Screaming."
+10,충돌해결,High,Gym,Loud,Active,Classical,"STRATEGY: Match Energy. ACCEPT: Epic Orchestral, Fast Strings (e.g., Vivaldi Storm). BAN: Slow Adagio."
+11,충돌해결,High,Home,Quiet,Sleep,Hip-hop,"STRATEGY: Remove Aggression. ACCEPT: Lo-fi Hip hop, Jazz-hop, Slow Instrumentals. BAN: Trap, Gangsta Rap."
+12,충돌해결,High,Co-working,Quiet,Focus,K-Pop (Dance),"STRATEGY: Acoustic Arrangement. ACCEPT: Piano covers, Unplugged ver. BAN: Original dance tracks."
+13,충돌해결,High,Cafe,Moderate,Relax,EDM,"STRATEGY: Downtempo. ACCEPT: Tropical House, Chill House, Lounge. BAN: Festival Big Room."
+14,충돌해결,High,Park,Moderate,Consolation,Rock,"STRATEGY: Soften tone. ACCEPT: Soft Rock, Acoustic Rock, Britpop. BAN: Hard Rock."
+15,소음대응,High,Subway,Very Loud,Focus,Classical,"STRATEGY: Noise Masking. ACCEPT: Cello/Organ (Low freq), Steady volume. BAN: Dynamic tracks (too quiet parts)."
+16,감정분석,Mid,Home,Moderate,Anger (Vent),Rock,"GOAL: Catharsis. ACCEPT: Grunge, Punk, Hard Rock. VIBE: Aggressive, High Energy."
+17,감정분석,High,Home,Moderate,Anger (Calm),Classical,GOAL: Composure. ACCEPT: Dramatic/Majestic Classical. BAN: Irritating high pitches.
+18,감정분석,Mid,Moving,Loud,Active,Hip-hop,"VIBE: Labor friendly. ACCEPT: Boom Bap, Old School, Rhythmic. VIBE: Steady beat."
+19,일반,Low,Cafe,Moderate,Neutral,Indie,"Genre: Indie Pop/Folk. VIBE: Easy listening, Background music."
+20,충돌해결,High,Library,Silent,Focus,Podcast (Talk),CONFLICT: Talk vs Focus. ACTION: Suggest Instrumental OR Warn about distraction. BAN: Talk shows.

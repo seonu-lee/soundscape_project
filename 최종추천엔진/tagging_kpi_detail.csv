@@ -1,0 +1,21 @@
+﻿ID,Context,Score_Total_Accuracy,Score_Accuracy_Logic,Score_Accuracy_Math,Score_Stability,Score_SearchSuccess,Score_Consistency,Primary_Tag,Hallucination_Track,Output_Reasoning,Recommended_Track,Score_Diversity,Overall_Search_Success_Rate
+1,Library-Focus,71.8,90,29.2,1,1,1.0,Focus_classical_calm,,"사용자가 도서관(Library)에서 집중(Focus)를 할 수 있도록, 조용한(Silent) 환경을 고려하여 클래식(classical) 장르를 선정했습니다.","Hyakuda, Yukio Nyosei; Liu, Tim; Ikehara, C; Brau, Lorie - Korean Folk Music Medley",82.5,100.0%
+2,Gym-Active,62.9,70,46.2,1,1,1.0,Active_k-pop_intense,,"사용자가 체육관(Gym)에서 활동적(Active)인 상태를 유지할 수 있도록, 시끄러운(Loud) 환경을 고려하여 K-POP 장르와 강렬한(intense) 분위기를 선정했습니다.",Brand New - Welcome to Bangkok,82.5,100.0%
+3,Home-Sleep,58.7,70,32.2,1,1,1.0,Sleep_classical_calm,,"사용자가 집(Home)에서 수면(Sleep)을 취할 수 있도록, 조용한(Quiet) 환경을 고려하여 클래식(classical) 장르를 선정했습니다.",Steve Lacy - Infrunami,82.5,100.0%
+4,Cafe-Relax,78.4,90,51.5,1,1,1.0,Relax_jazz_chill,,"사용자가 카페(Cafe)에서 편안함(Relax)을 느낄 수 있도록, 보통 소음 수준(Moderate)을 고려하여 재즈(Jazz) 장르와 차분한(chill) 분위기를 선정했습니다.",쥬얼리 - 룩앳미 (Look At Me),82.5,100.0%
+5,Park-Active,74.3,90,37.6,1,1,1.0,Active_k-pop_groovy,,"사용자가 공원(Park)에서 활동적(Active)인 시간을 보내고자 하므로, 적당한 소음 수준(Moderate)에서 신나는(k-pop) 분위기를 고려하여 [장르(Genre)]를 선정했습니다.",Mariah Carey - Ribbon,82.5,100.0%
+6,Co-working-Focus,78.3,95,39.5,1,1,1.0,Focus_lo-fi_calm,,"사용자가 조용한(Co-working) 환경에서 집중(Focus)을 할 수 있도록, 부드러운(lo-fi) 장르와 차분한(calm) 분위기를 고려하여 선정했습니다.",The High Kings - The Parting Glass,82.5,100.0%
+7,Moving (Car)-Neutral,3.2,0,10.7,1,1,1.0,error,,Error,Orange Caramel - 까탈레나 (Catallena),82.5,100.0%
+8,Home-Consolation,59.8,70,36.0,1,1,1.0,Consolation_ballad_calm,,"사용자가 집(Home)에서 위로(Consolation)를 받을 수 있도록, 조용한(Silent) 환경을 고려하여 발라드(Ballad) 장르를 선정했습니다.",K.Will - 다시 사랑하면 안되니  (Can I Love You Again),82.5,100.0%
+9,Library-Focus,50.2,60,27.3,1,1,1.0,Focus_classical_calm,,"사용자가 도서관(Library)에서 집중(Focus)를 할 수 있도록, 조용한(Silent) 환경을 고려하여 클래식(classical) 장르를 선정했습니다.",Six Organs of Admittance - Elk River,82.5,100.0%
+10,Gym-Active,35.9,40,26.5,1,1,1.0,Active_edm_energetic,,"사용자가 체육관(Gym)에서 활동적(Active)인 목표를 달성할 수 있도록, 시끄러운(Loud) 환경을 고려하여 EDM 장르를 선정했습니다.",Halestorm - Daughters of Darkness,82.5,100.0%
+11,Home-Sleep,55.8,70,22.8,1,1,1.0,Sleep_ballad_calm,,"사용자가 집(Home)에서 수면(Sleep)을 취할 수 있도록, 조용한(Quiet) 환경을 고려하여 부드러운 발라드 장르를 선정했습니다.",먼데이키즈 (진성) & 엠투엠 (최정환) - 모놀로그 (Monologue),82.5,100.0%
+12,Co-working-Focus,59.1,70,33.6,1,1,1.0,Focus_classical_calm,,"사용자가 조용한(Co-working) 환경에서 집중(Focus)을 할 수 있도록, 가사 없는 클래식(classical) 장르를 선정했습니다.",Steve Lacy - Infrunami,82.5,100.0%
+13,Cafe-Relax,4.0,0,13.2,1,1,1.0,error,,Error,소녀시대 - GENIE,82.5,100.0%
+14,Park-Consolation,4.7,0,15.7,1,1,1.0,error,,Error,소녀시대 - Gee,82.5,100.0%
+15,Subway-Focus,74.6,90,38.6,1,1,1.0,Focus_classical_intense,,"사용자가 지하철(Subway)에서 집중(Focus)을 할 수 있도록, 시끄러운(Very Loud) 환경을 고려하여 클래식(Classical) 장르를 선정했습니다.",The Blood Brothers - You're the Dream Unicorn!,82.5,100.0%
+16,Home-Anger (Vent),52.5,60,35.2,1,1,1.0,Anger_rock_groovy,,"사용자가 집(Home)에서 분노(Anger)를 해소할 수 있도록, 보통의 소음 수준(Moderate)을 고려하여 록(rock) 장르의 경쾌한(groovy) 분위기를 선정했습니다.",Witches - 떳다!! 그녀!!,82.5,100.0%
+17,Home-Anger (Calm),62.2,70,43.9,1,1,1.0,Anger_classical_chill,,"사용자가 집(Home)에서 차분한(Anger) 감정을 느끼고 싶어 하므로, 보통 소음 수준(Moderate)을 고려하여 클래식(classical) 장르를 선정했습니다.",Ariana Grande - better off,82.5,100.0%
+18,Moving-Active,58.3,70,31.0,1,1,1.0,Active_hip-hop_intense,,"사용자가 이동 중(Moving)이며 활동적(Active)인 목표를 가지고 있어, 시끄러운(Loud) 환경에 적합한 강렬한(Heavy) 힙합 장르를 선정했습니다.",프라이머리 - 멀어 (Feat. Beenzino),82.5,100.0%
+19,Cafe-Neutral,3.1,0,10.5,1,1,1.0,error,,Error,Psy - 강남스타일,82.5,100.0%
+20,Library-Focus,57.3,70,27.8,1,1,1.0,Focus_classical_calm,,"사용자가 도서관(Library)에서 집중(Focus)를 할 수 있도록, 조용한(Silent) 환경을 고려하여 클래식(classical) 장르를 선정했습니다.",Real Estate - All The Same,82.5,100.0%
